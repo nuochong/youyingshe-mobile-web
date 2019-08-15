@@ -1,0 +1,43 @@
+.header-wrap {
+  .header-normal {
+    z-index: 10;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 3px 18px;
+    font-size: 0;
+    background-color: #fff;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 48px;
+    box-sizing: border-box;
+    .logo-wrap {
+      height: 100%;
+      text-align: left;
+      float: left;
+      .logo {
+        height: 100%;
+        vertical-align: middle;
+      }
+      .slogan {
+        line-height: 20px;
+        vertical-align: middle;
+        margin-left: 12px;
+        display: inline-block;
+        font-size: 16px;
+        color: #333;
+      }
+    }
+    .header-login {
+      position: absolute;
+      padding: 15px;
+      right: 0;
+      top: 0;
+      font-size: 16px;
+      color: #ea6f5a;
+    }
+  }
+  .header-shim {
+    height: 52px;
+  }
+}

@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -30,4 +30,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@import url('//at.alicdn.com/t/font_1352846_23wbo4kfj5.css');
+*,
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
 }
