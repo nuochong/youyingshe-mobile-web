@@ -3,6 +3,7 @@ import logo from './assets/img/logo.svg';
 import './assets/css/App.css';
 import 'antd-mobile/dist/antd-mobile.css';
 import Home from './components/Home';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Home />
+      {/* <Home /> */}
+      <Login/>
     </div>
   );
 }
