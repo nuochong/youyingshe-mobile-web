@@ -1,0 +1,188 @@
+/*----------*/
+.article-body-container {
+  padding-left: 18px;
+  padding-right: 18px;
+  .article-body {
+    .article-title {
+      margin: 15px 0;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 1.4;
+      color: #2f2f2f;
+    }
+    .article-message {
+      margin-bottom: 20px;
+      font-size: 13px;
+      color: #b1b1b1;
+      .info {
+        display: flex;
+        .user-avatar {
+          width: 34px;
+          height: 34px;
+          border-radius: 17px;
+          float: left;
+          margin-right: 5px;
+        }
+        .user-content {
+          display: flex;
+          align-items: center;
+          .user-content-wrap {
+            display: flex;
+            vertical-align: middle;
+            .user-nickname {
+              margin-right: 5px;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 16px;
+              color: #484848;
+              display: inline-block;
+            }
+            .badge-item {
+              padding: 1px 2px;
+              font-size: 12px;
+              color: #ea6f5a;
+              border-radius: 3px;
+              vertical-align: middle;
+              position: relative;
+              display: inline-block;
+              &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: 1px solid #ea6f5a;
+                width: 200%;
+                height: 200%;
+                transform: scale(0.5);
+                transform-origin: left top;
+                border-radius: 3px;
+              }
+            }
+          }
+        }
+      }
+      .article-meta {
+        margin-top: 10px;
+        i,
+        span {
+          margin-right: 10px;
+          font-size: 13px;
+          line-height: 13px;
+        }
+      }
+    }
+    .article-content {
+    }
+    .article-copyright {
+      font-size: 13px;
+      color: hsla(0, 0%, 59%, 0.4);
+      position: relative;
+      line-height: 40px;
+    }
+  }
+  .article-praise-container {
+    margin: 15px 0 26px;
+    text-align: center;
+    .article-line-hint {
+      position: relative;
+      height: 31px;
+      text-align: center;
+      user-select: none;
+      .line {
+        position: absolute;
+        width: 100%;
+        top: 15px;
+        height: 1px;
+        background-color: #ddd;
+        z-index: 0;
+      }
+      .content {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: #2f2f2f;
+        span {
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 16px;
+          margin-right: 5px;
+          font-weight: 500;
+          line-height: 22px;
+          color: #666;
+        }
+        .special {
+          color: #ea6f5a;
+        }
+      }
+    }
+    .article-praise {
+      i {
+        color: #888;
+        font-size: 60px;
+        display: block;
+      }
+      .graceful-words {
+        font-size: 13px;
+        color: #888;
+        .numbers {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .article-reward {
+    height: 66px;
+    display: flex;
+    background-color: #ececec;
+    margin-bottom: 20px;
+    .reward-description {
+      width: 100%;
+      padding: 15px;
+      display: flex;
+      .author-avatar {
+        width: 36px;
+        height: 36px;
+        margin-right: 6px;
+        display: inline-block;
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 50%;
+        }
+      }
+      .author-info {
+        flex: 1;
+        .author-nickname {
+          font-size: 15px;
+          line-height: 21px;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-weight: 700;
+          color: #484848;
+        }
+        .author-desc {
+          padding-top: 2px;
+          font-size: 12px;
+          line-height: 17px;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          color: #999;
+        }
+      }
+      .new-reward-button {
+        height: 36px;
+        width: 78px;
+        background-color: #ea6f5a;
+        color: #fff;
+        border-radius: 20px;
+        border: none;
+        line-height: 36px;
+        margin-left: 5px;
+      }
+    }
+  }
+}

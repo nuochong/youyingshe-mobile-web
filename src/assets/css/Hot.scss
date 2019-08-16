@@ -1,0 +1,54 @@
+.article-hot {
+  padding: 0 18px;
+  .top-title {
+    margin-left: -18px;
+    margin-right: -18px;
+    padding: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #545454;
+    .collection-change {
+      float: right;
+      color: #888;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 1.75;
+      i {
+        display: inline-block;
+        font-size: 14px;
+        margin-right: 4px;
+        -webkit-transform: translateY(0.5px);
+        -ms-transform: translateY(0.5px);
+        transform: translateY(0.5px);
+      }
+    }
+  }
+  .recommend-collection {
+    font-size: 0;
+    padding-bottom: 5px;
+    .tag {
+      display: inline-block;
+      padding: 5px 10px;
+      margin: 0 12px 12px 0;
+      font-size: 14px;
+      position: relative;
+      color: #ea6f5a;
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #ea6f5a;
+        width: 200%;
+        height: 200%;
+        -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: left top;
+        -ms-transform-origin: left top;
+        transform-origin: left top;
+        border-radius: 8px;
+      }
+    }
+  }
+}
