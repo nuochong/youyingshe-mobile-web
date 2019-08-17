@@ -9,7 +9,7 @@ export class Footer extends Component {
             <div class="footer-panel">
               <div class="panel">
                 <a href="/u/26b6edd6b0da" class="avatar">
-                    <img src="https://upload.jianshu.io/users/upload_avatars/19245301/25d33e39-ff2c-4859-8df9-10059f07bd22?imageMogr2/auto-orient/strip|imageView2/1/w/72/h/72/format/webp" />
+                    <img src={process.env.PUBLIC_URL + '/img/25d33e39-ff2c-4859-8df9-10059f07bd22.webp'} />
                 </a>
                 <a class="item">登录</a>
                 <span class="line">|</span>

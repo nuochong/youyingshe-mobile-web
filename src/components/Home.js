@@ -12,7 +12,7 @@ import Download from './Download';
 import ArticleBody from './ArticleBody';
 import Logo from './Logo';
 import Collection from './Collection';
-import { Tabs, WhiteSpace } from 'antd-mobile';
+
 class Home extends Component {
   constructor() {
     super();

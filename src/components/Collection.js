@@ -7,7 +7,8 @@ export class Collection extends Component {
         <section class="collection-container">
           <div class="collection-info">
             <img
-              src="https://upload.jianshu.io/collections/images/256739/461792731394569594.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/144/h/144"
+            src={process.env.PUBLIC_URL + '/img/461792731394569594.jpg'}
+              
               alt="avatar"
               class="avatar"
             />

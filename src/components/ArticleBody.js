@@ -9,10 +9,7 @@ export class ArticleBody extends Component {
             <h1 class="article-title">吐血整理写给新手的水彩颜料选购指南（干货）</h1>
             <div class="article-message">
               <a href="" class="info">
-                <img
-                  src="https://upload.jianshu.io/users/upload_avatars/4646413/7374b10ccc30.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/180/h/180/format/webp"
-                  class="user-avatar"
-                />
+                <img src={process.env.PUBLIC_URL + '/img/7374b10ccc30.webp'} class="user-avatar" />
                 <div class="user-content">
                   <div class="user-content-wrap">
                     <div class="user-nickname">琢磨自留地</div>
@@ -33,7 +30,7 @@ export class ArticleBody extends Component {
                   <div class="image-view">
                     <img
                       class=""
-                      src="//upload-images.jianshu.io/upload_images/12676667-c84a3febcb3b2c2a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700/format/webp"
+                      src={process.env.PUBLIC_URL + '/img/12676667-c84a3febcb3b2c2a.webp'}
                     />
                   </div>
                 </div>
@@ -69,7 +66,7 @@ export class ArticleBody extends Component {
           <div class="article-reward">
             <div class="reward-description">
               <a href="" class="author-avatar">
-                <img src="https://upload.jianshu.io/users/upload_avatars/4646413/7374b10ccc30.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/72/h/72/format/webp" />
+                <img src={process.env.PUBLIC_URL + '/img/7374b10ccc30.webp'} />
               </a>
               <div class="author-info">
                 <div class="author-nickname">琢磨自留地</div>

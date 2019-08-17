@@ -7,7 +7,7 @@ export class Footer extends Component {
         <header class="header-wrap">
           <div class="header-normal">
             <div class="logo-wrap">
-              <img src="https://cdn2.jianshu.io/asimov/src/assets/image/nav-logo.faf216af.png" alt="logo" class="logo" />
+              <img src={process.env.PUBLIC_URL + '/img/nav-logo.faf216af.png'} alt="logo" class="logo" />
               <span class="slogan">创作你的创作</span>
             </div>
             <div class="header-login">

@@ -6,7 +6,7 @@ export class Recommend extends Component {
 
     this.state = {
       bg: {
-        'background-image': 'url(https://upload-images.jianshu.io/upload_images/18354189-e9e9a30bcfda6c4b.jpg)'
+        'background-image': 'url(' + process.env.PUBLIC_URL + '/img/18354189-e9e9a30bcfda6c4b.jpg'
       }
     };
   }
@@ -16,7 +16,7 @@ export class Recommend extends Component {
         <section class="article-recommend">
           <p class="top-title">
             推荐阅读
-            <a href="/?utm_source=mobile&amp;utm_medium=note-recommendation-link-index" class="more">
+            <a href="" class="more">
               更多精彩内容
               <i class="iconfont ic-link" />
             </a>
@@ -30,7 +30,7 @@ export class Recommend extends Component {
                 <div class="author">
                   <div class="title">绘画艺术丨今日教程：彩铅画—兰花</div>
                   <div class="avatar">
-                    <img src="https://upload.jianshu.io/users/upload_avatars/16383436/7b95dc5a-def2-4ad4-a1bc-599d8893aec4.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/100/h/100/format/webp" />
+                    <img src={process.env.PUBLIC_URL + '/img/f9075afb-775a-433d-9c32-835b8d9893e2.webp'} />
                   </div>
                   <div class="author-name">教画画的小然</div>
                   <div class="meta">

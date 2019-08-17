@@ -6,11 +6,11 @@ export class UserInfo extends Component {
       <div>
         <div class="user-info">
           <div class="background">
-            <img src="https://cdn2.jianshu.io/asimov/src/assets/image/img-user-background-image-default.a89eb3a3.jpg" />
+            <img src={process.env.PUBLIC_URL + '/img/img-user-background-image-default.a89eb3a3.jpg'} />
           </div>
           <div class="user-content">
             <div class="avatar">
-              <img src="https://upload.jianshu.io/users/upload_avatars/4646413/7374b10ccc30.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/180/h/180/format/webp" />
+              <img src={process.env.PUBLIC_URL + '/img/7374b10ccc30.webp'} />
             </div>
             <div class="author-info">
               <div class="name">琢磨自留地</div>
