@@ -44,7 +44,9 @@
   padding: 0;
   margin: 0;
 }
-
+a{
+  text-decoration: none;
+}
 button {
   user-select: none;
   text-align: center;
