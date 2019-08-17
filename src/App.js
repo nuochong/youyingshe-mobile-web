@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './assets/img/logo.svg';
+import React, { Component } from 'react';
+import routers from './model/router.js';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import './assets/css/App.css';
-// import 'antd-mobile/dist/antd-mobile.css';
-import Home from './components/Home';
-import Login from './components/Login';
 
-function App() {
-  return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header> */}
-      <Home />
-      {/* <Login/> */}
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Router>
+        {routers.map((route, key) => {
+            //对路由匹配模式（exact）进行拆分，true：严格模式，false：非严格模式
+            if (route.exact) {
+              return (
+                <Route
+                  key={key}
+                  exact
+                  path={route.path}
+                  render={props => (
+                    // pass the sub-routes down to keep nesting
+                    <route.component {...props} routers={route.routers} />
+                  )}
+                />
+              );
+            } else {
+              return (
+                <Route
+                  key={key}
+                  path={route.path}
+                  render={props => (
+                    // pass the sub-routes down to keep nesting
+                    <route.component {...props} routes={route.routes} />
+                  )}
+                />
+              );
+            }
+          })}
+        </Router>
+      </div>
+    );
+  }
 }
 
 export default App;
