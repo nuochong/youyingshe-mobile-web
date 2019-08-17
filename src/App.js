@@ -17,8 +17,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      {/* <Home /> */}
-      <Login/>
+      <Home />
+      {/* <Login/> */}
     </div>
   );
 }
