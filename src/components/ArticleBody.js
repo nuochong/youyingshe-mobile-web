@@ -5,7 +5,7 @@ export class ArticleBody extends Component {
     return (
       <div>
         <section class="article-body-container">
-          <div class="article-body">
+          <div class="article-body collapse-free-content">
             <h1 class="article-title">吐血整理写给新手的水彩颜料选购指南（干货）</h1>
             <div class="article-message">
               <a href="" class="info">
@@ -42,6 +42,14 @@ export class ArticleBody extends Component {
             </div>
             <div class="article-copyright">© 著作权归作者所有,转载或内容合作请联系作者</div>
           </div>
+
+          <div class="collapse-tips">
+            <button class="close-collapse-btn">
+              <i class="iconfont iconmore" />
+            </button>
+            <button class="open-app-btn">打开App，阅读文章</button>
+          </div>
+
           <div class="article-praise-container">
             <div class="article-line-hint">
               <div class="line" />

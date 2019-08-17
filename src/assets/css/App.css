@@ -32,7 +32,7 @@
   }
 }
 
-@import url('//at.alicdn.com/t/font_1352846_0kwjkgx5lqc9.css');
+@import url('//at.alicdn.com/t/font_1352846_uzslbo5sq8l.css');
 *,
 :after,
 :before {
@@ -51,9 +51,17 @@ button {
   border: none;
   background-color: transparent;
 }
-div[contenteditable=true], input[type=file], input[type=number], input[type=password], input[type=text], textarea {
+div[contenteditable='true'],
+input[type='file'],
+input[type='number'],
+input[type='password'],
+input[type='text'],
+textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   border: none;
+}
+body {
+  background-color: #ffffff;
 }
