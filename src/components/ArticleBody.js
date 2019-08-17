@@ -26,7 +26,20 @@ export class ArticleBody extends Component {
                 <span>2018-08-05 10:42</span>
               </div>
             </div>
-            <div class="article-content">&nbsp;</div>
+            <div class="article-content">
+              <div class="image-package">
+                <div class="image-container">
+                  <div class="image-container-fill" />
+                  <div class="image-view">
+                    <img
+                      class=""
+                      src="//upload-images.jianshu.io/upload_images/12676667-c84a3febcb3b2c2a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/700/format/webp"
+                    />
+                  </div>
+                </div>
+                <div class="image-caption">第一组花瓣，完全在试色当中</div>
+              </div>
+            </div>
             <div class="article-copyright">© 著作权归作者所有,转载或内容合作请联系作者</div>
           </div>
           <div class="article-praise-container">
