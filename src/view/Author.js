@@ -9,12 +9,9 @@ import Logo from '../components/Logo';
 class Author extends Component {
   constructor() {
     super();
-    //react定义数据
-    this.state = {
-    };
+    this.state = {};
   }
-  componentWillMount() {
-  }
+  componentWillMount() {}
   render() {
     return (
       <div>

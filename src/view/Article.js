@@ -10,11 +10,9 @@ import Logo from '../components/Logo';
 class Article extends Component {
   constructor() {
     super();
-    this.state = {
-    };
+    this.state = {};
   }
-  componentWillMount() {
-  }
+  componentWillMount() {}
   render() {
     return (
       <div>
