@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './assets/css/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import api from './api/api';
+
+React.Component.prototype.api = api;
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
