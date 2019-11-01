@@ -33,7 +33,7 @@ export class Comment extends Component {
 
           <div class="comments-wrap">
             <div class="comment-item">
-              <a href="" class="user-avatar">
+              <a href="javascript:;" class="user-avatar">
                 <span class="">
                   <img src={process.env.PUBLIC_URL + '/img/f9075afb-775a-433d-9c32-835b8d9893e2.webp'} />
                 </span>
@@ -41,7 +41,7 @@ export class Comment extends Component {
               <div class="main">
                 <div class="comment-user">
                   <div class="nickname-wrap">
-                    <a href="" class="nickname oneline">
+                    <a href="javascript:;" class="nickname oneline">
                       青藤阁任春芳
                     </a>
                     <img src={process.env.PUBLIC_URL + '/img/5203a3bf-1c0f-41db-a6f0-31ddb4a929cb.jpg'} width="20" height="20" />
@@ -63,7 +63,7 @@ export class Comment extends Component {
               </div>
             </div>
             <div class="comment-item ">
-              <a href="" class="user-avatar">
+              <a href="javascript:;" class="user-avatar">
                 <span class="">
                   <img src={process.env.PUBLIC_URL + '/img/c68e17ff-8f3a-4b48-9f37-062fd25faa70.webp'} />
                 </span>
@@ -71,7 +71,7 @@ export class Comment extends Component {
               <div class="main">
                 <div class="comment-user">
                   <div class="nickname-wrap">
-                    <a href="" class="nickname oneline">
+                    <a href="javascript:;" class="nickname oneline">
                       青青竹青
                     </a>
                     <img src={process.env.PUBLIC_URL + '/img/b67c298d-f020-4f89-aac6-0710bc0709ec.jpg'} width="20" height="20" />
@@ -92,17 +92,17 @@ export class Comment extends Component {
                 </div>
                 <div class="sub-comment-list">
                   <div class="sub-comment-item">
-                    <a href="" class="user-avatar">
+                    <a href="javascript:;" class="user-avatar">
                       <span class="">
                         <img src={process.env.PUBLIC_URL + '/img/93da3a3a-e7d3-4fa4-8314-9c1ca05cc021.webp'} />
                       </span>
                     </a>
                     <div class="sub-comment-wrap">
-                      <a href="" class="nickname oneline">
+                      <a href="javascript:;" class="nickname oneline">
                         清欢余余
                       </a>
                       <div class="sub-comment-text">
-                        <a href="" class="maleskine-author" target="_blank">
+                        <a href="javascript:;" class="maleskine-author" target="_blank">
                           @青青竹青
                         </a>{' '}
                         哈哈，谢谢夸奖，说明我在进步嘛，努力还是有收获哒。。😀

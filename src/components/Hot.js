@@ -13,19 +13,19 @@ export class Hot extends Component {
             </span>
           </div>
           <div class="recommend-collection">
-            <a href="" class="tag">
+            <a href="javascript:;" class="tag">
               摄影
             </a>
-            <a href="" class="tag">
+            <a href="javascript:;" class="tag">
               旅行·在路上
             </a>
-            <a href="" class="tag">
+            <a href="javascript:;" class="tag">
               手绘
             </a>
-            <a href="" class="tag">
+            <a href="javascript:;" class="tag">
               @IT·互联网
             </a>
-            <a href="" class="tag">
+            <a href="javascript:;" class="tag">
               自然科普
             </a>
           </div>

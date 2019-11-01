@@ -28,7 +28,7 @@ export class Login extends Component {
               <h6>社交帐号直接登录</h6>
               <ul>
                 <li>
-                  <a href="" class="qq">
+                  <a href="javascript:;" class="qq">
                     <i class="iconfont iconqq" />
                   </a>
                 </li>
@@ -38,7 +38,7 @@ export class Login extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="" class="douban">
+                  <a href="javascript:;" class="douban">
                     <i class="iconfont icondouban" />
                   </a>
                 </li>
