@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/css/Hot.scss';
+import { Link } from 'react-router-dom';
 export class Hot extends Component {
   render() {
     return (
@@ -13,9 +14,11 @@ export class Hot extends Component {
             </span>
           </div>
           <div class="recommend-collection">
-            <a href="javascript:;" class="tag">
-              摄影
-            </a>
+            <Link to={`/aggregation/`}>
+              <a href="javascript:;" class="tag">
+                摄影
+              </a>
+            </Link>
             <a href="javascript:;" class="tag">
               旅行·在路上
             </a>

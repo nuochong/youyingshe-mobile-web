@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/css/ArticleBody.scss';
+import { Link } from 'react-router-dom';
 export class ArticleBody extends Component {
   render() {
     return (
@@ -8,6 +9,7 @@ export class ArticleBody extends Component {
           <div class="article-body collapse-free-content">
             <h1 class="article-title">吐血整理写给新手的水彩颜料选购指南（干货）</h1>
             <div class="article-message">
+            <Link to={`/author/`}>
               <a href="javascript:;" class="info">
                 <img src={process.env.PUBLIC_URL + '/img/7374b10ccc30.webp'} class="user-avatar" />
                 <div class="user-content">
@@ -17,6 +19,7 @@ export class ArticleBody extends Component {
                   </div>
                 </div>
               </a>
+              </Link>
               <div class="article-meta">
                 <i class="iconfont iconjewel" />
                 <span>5.409</span>

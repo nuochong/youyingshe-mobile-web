@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/css/Login.scss';
-
+import { Link } from 'react-router-dom';
 export class Login extends Component {
   render() {
     return (
@@ -9,9 +9,11 @@ export class Login extends Component {
           <div class="drawer sign-in-drawer">
             <div class="header">
               <h3>登录简书</h3>
+              <Link to={`/home/`}>
               <button class="close">
                 <i class="iconfont iconhebingxingzhuang" />
               </button>
+              </Link>
             </div>
             <form>
               <div class="input-wrap">
