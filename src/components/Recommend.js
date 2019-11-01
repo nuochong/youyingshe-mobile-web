@@ -16,7 +16,7 @@ export class Recommend extends Component {
         <section class="article-recommend">
           <p class="top-title">
             推荐阅读
-            <a href="" class="more">
+            <a href="javascript:;" class="more">
               更多精彩内容
               <i class="iconfont ic-link" />
             </a>
