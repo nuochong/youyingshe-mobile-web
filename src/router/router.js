@@ -44,7 +44,7 @@ let routers = [
     component: Redux
   },
   {
-    path: '/redux',
+    path: '/redux2',
     component: Redux2
   }
 ];
