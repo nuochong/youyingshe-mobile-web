@@ -3,6 +3,8 @@ import Login from '../view/Login';
 import Article from '../view/Article';
 import Author from '../view/Author';
 import Aggregation from '../view/Aggregation';
+import Redux from '../view/Redux';
+import Redux2 from '../view/Redux2';
 
 let routers = [
   {
@@ -36,6 +38,14 @@ let routers = [
   {
     path: '/aggregation',
     component: Aggregation
+  },
+  {
+    path: '/redux',
+    component: Redux
+  },
+  {
+    path: '/redux',
+    component: Redux2
   }
 ];
 

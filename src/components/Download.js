@@ -39,12 +39,18 @@ export class Download extends Component {
 
     this.state = {};
   }
+  getParentMsg=()=>{
+    alert(this.props.msg);
+  }
+  childFun=()=>{
+    alert('我是子组件的方法');
+  }
   render() {
     return (
       <div>
         <DownloadGuide>
           <div class="download-guide">
-            <a href="" class="download">
+            <a href="javascript:;" class="download" onClick={this.getParentMsg}>
               下载简书，创作你的创作
             </a>
           </div>
