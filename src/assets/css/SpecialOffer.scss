@@ -1,0 +1,131 @@
+.books-trending {
+  .banner {
+    width: 100%;
+    height: 110px;
+    background-position: 50%;
+    -webkit-background-size: 440px 440px;
+    background-size: 440px;
+    background-repeat: no-repeat;
+  }
+  .banner.weekly {
+    background-color: #fa5e5b;
+    background-image: url(//cdn2.jianshu.io/asimov/src/assets/image/img_book_weekly_trending.33aea5ef.png);
+  }
+  ol {
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    max-width: 560px;
+    list-style: none;
+    counter-reset: li;
+    li {
+      &:first-of-type .notebook:before {
+        color: rgba(218, 158, 85, 0.15);
+        font-size: 90px;
+      }
+      &:nth-of-type(2) .notebook:before {
+        color: rgba(159, 173, 199, 0.15);
+        font-size: 90px;
+      }
+      &:nth-of-type(3) {
+        .notebook:before {
+          color: hsla(32, 31%, 69%, 0.15) !important;
+          font-size: 90px !important;
+        }
+      }
+      .notebook {
+        display: block;
+        position: relative;
+        padding: 15px;
+        height: 110px;
+        overflow: hidden;
+        &:before {
+          content: counter(li);
+          counter-increment: li;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          font-size: 32px;
+          font-style: italic;
+          font-weight: 700;
+          line-height: 1;
+          color: hsla(0,0%,59%,.15);
+        }
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 90px;
+          width: 200%;
+          height: 1px;
+          border-bottom: 1px solid #eaeaea;
+          -webkit-transform: scale(0.5);
+          -ms-transform: scale(0.5);
+          transform: scale(0.5);
+          -webkit-transform-origin: 0 0;
+          -ms-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        .cover {
+          margin-right: 15px;
+          float: left;
+          width: 60px;
+          height: 80px;
+          border-radius: 4px;
+          border: 1px solid #eaeaea;
+        }
+        .name {
+          color: #999;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 1.3;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .intro {
+          font-size: 12px;
+          line-height: 1.3;
+          color: #999;
+        }
+        .oneline {
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .intro.twoline {
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          line-height: 16px;
+          max-height: 32px;
+          -webkit-box-sizing: content-box;
+          -moz-box-sizing: content-box;
+          box-sizing: content-box;
+          white-space: normal;
+      }
+        .info {
+          color: #999;
+          margin-right: 7px;
+          font-size: 12px;
+          line-height: 2.3;
+
+          i {
+            color: #d8d8d8;
+          }
+          .category:not(:last-child):after {
+            content: ' \B7';
+          }
+        }
+      }
+    }
+  }
+}
