@@ -6,19 +6,27 @@ export class ArticleList extends Component {
     super(props);
 
     this.state = {
-      list: [0, 2, 3, 4]
+      list: [0, 2, 3, 4],
+      isShowDirectory: false
     };
   }
-
+  showDirectory = () => {
+    console.log('点击');
+    this.setState({
+      isShowDirectory: !this.state.isShowDirectory
+    });
+     //this.state.isShowDirectory = true;
+    console.log('this.state.isShowDirectory :', this.state.isShowDirectory);
+  };
   render() {
     return (
       <div>
         <div class="book-nav">
-          <button class="open-chapter">
+          <button class="open-chapter" onClick={this.showDirectory}>
             <i class="iconfont ic-catalog iconmulu"></i>
             目录
           </button>
-          <a href="/nb/23058721" class="book-info">
+          <a href="javascript:;" class="book-info">
             <img
               src="https://upload.jianshu.io/book/image/741d215c-5eb3-4202-a7c0-2448c74aa494?imageMogr2/auto-orient/strip|imageView2/1/w/51/h/69/format/webp"
               class="cover"
@@ -29,8 +37,11 @@ export class ArticleList extends Component {
         </div>
 
         <div id="book-chapters-drawer-wrap">
-        <div id="backdrop-r2u" class="backdrop show"></div>
-          <div class="change1 drawer book-chapters-drawer-header">
+          <div id="backdrop-r2u" class="backdrop " className={['backdrop ', this.state.isShowDirectory ? 'show' : 'hidden'].join('')} onClick={this.showDirectory}></div>
+          <div
+            class=" drawer book-chapters-drawer-header"
+            className={['drawer book-chapters-drawer-header ', this.state.isShowDirectory ? 'change1' : 'changeHidden'].join('')}
+          >
             <div class="book-chapters-header">
               <span class="title">目录(共61篇)</span>
               <button class="reset">
@@ -39,7 +50,10 @@ export class ArticleList extends Component {
               </button>
             </div>
           </div>
-          <div class="change1 drawer book-chapters-drawer-body">
+          <div
+            class=" drawer book-chapters-drawer-body"
+            className={['drawer book-chapters-drawer-body ', this.state.isShowDirectory ? 'change1' : 'changeHidden'].join('')}
+          >
             <div id="book-chapters">
               <ul>
                 <li class="chapter">
@@ -253,7 +267,10 @@ export class ArticleList extends Component {
               </div>
             </div>
           </div>
-          <div class="change1 drawer book-chapters-drawer-footer">
+          <div
+            class=" drawer book-chapters-drawer-footer"
+            className={['drawer book-chapters-drawer-footer ', this.state.isShowDirectory ? 'change1' : 'changeHidden'].join('')}
+          >
             <a href="/nb/23058721" class="back">
               <i class="iconfont ic-read iconbook"></i>
               前往作品主页

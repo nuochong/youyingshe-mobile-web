@@ -66,13 +66,22 @@
   height: 667px;
 }
 #book-chapters-drawer-wrap {
+  .hidden{
+    display: none;
+  }
   .change1 {
     top: 0px;
     height: 100%;
     width:70%;
     //right: 0px;
-    //right: 70px;
     //display: none;
+  }
+  .changeHidden {
+    top: 0px;
+    height: 100%;
+    width:70%;
+    right: 0px;
+    display: none;
   }
   .drawer {
     padding:0;
@@ -137,6 +146,7 @@
     #book-chapters {
       background-color: #fff;
       height: 100%;
+      padding: 0;
       ul {
         margin-left: 15px;
         padding: 46px 10px 60px 0;
