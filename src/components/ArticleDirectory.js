@@ -34,7 +34,7 @@ export class ArticleList extends Component {
             <div class="book-chapters-header">
               <span class="title">目录(共61篇)</span>
               <button class="reset">
-                <i class="iconfont ic-switch-order"></i>
+                <i class="iconfont ic-switch-order iconqiehuan"></i>
                 切换顺序
               </button>
             </div>
@@ -255,7 +255,7 @@ export class ArticleList extends Component {
           </div>
           <div class="change1 drawer book-chapters-drawer-footer">
             <a href="/nb/23058721" class="back">
-              <i class="iconfont ic-read"></i>
+              <i class="iconfont ic-read iconbook"></i>
               前往作品主页
             </a>
           </div>
