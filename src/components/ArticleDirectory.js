@@ -29,7 +29,7 @@ export class ArticleList extends Component {
         </div>
 
         <div id="book-chapters-drawer-wrap">
-          <div data-v-7632aa54="" class="drawer book-chapters-drawer-header">
+          <div data-v-7632aa54="" class="change1 drawer book-chapters-drawer-header">
             <div class="book-chapters-header">
               <span class="title">目录(共61篇)</span>
               <button class="reset">
@@ -38,7 +38,7 @@ export class ArticleList extends Component {
               </button>
             </div>
           </div>
-          <div data-v-7632aa54="" class="drawer book-chapters-drawer-body">
+          <div data-v-7632aa54="" class="change2 drawer book-chapters-drawer-body">
             <div id="book-chapters">
               <ul>
                 <li class="chapter">
@@ -252,7 +252,7 @@ export class ArticleList extends Component {
               </div>
             </div>
           </div>
-          <div data-v-7632aa54="" class="drawer book-chapters-drawer-footer">
+          <div data-v-7632aa54="" class="change3 drawer book-chapters-drawer-footer">
             <a href="/nb/23058721" class="back">
               <i class="iconfont ic-read"></i>
               前往作品主页
