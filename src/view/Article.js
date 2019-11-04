@@ -6,6 +6,7 @@ import Recommend from '../components/Recommend';
 import Comment from '../components/Comment';
 import ArticleBody from '../components/ArticleBody';
 import Logo from '../components/Logo';
+import ArticleDirectory from '../components/ArticleDirectory';
 
 class Article extends Component {
   constructor() {
@@ -17,6 +18,7 @@ class Article extends Component {
     return (
       <div>
         <Header />
+        <ArticleDirectory/>
         <ArticleBody />
         <hr />
         <Comment />
