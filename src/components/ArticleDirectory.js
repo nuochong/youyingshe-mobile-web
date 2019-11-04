@@ -39,7 +39,7 @@ export class ArticleList extends Component {
               </button>
             </div>
           </div>
-          <div class="change2 drawer book-chapters-drawer-body">
+          <div class="change1 drawer book-chapters-drawer-body">
             <div id="book-chapters">
               <ul>
                 <li class="chapter">
@@ -253,7 +253,7 @@ export class ArticleList extends Component {
               </div>
             </div>
           </div>
-          <div class="change3 drawer book-chapters-drawer-footer">
+          <div class="change1 drawer book-chapters-drawer-footer">
             <a href="/nb/23058721" class="back">
               <i class="iconfont ic-read"></i>
               前往作品主页
