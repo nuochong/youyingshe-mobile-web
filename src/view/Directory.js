@@ -19,7 +19,8 @@ class Article extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      modal1: false
+      modal1: false,
+      modal2: false
     };
   }
   showModal = key => e => {
@@ -31,6 +32,8 @@ class Article extends Component {
     app.classList.add('v-dialog-mask');
   };
   showModal2 = key => e => {
+    console.log('xxxxxxxx')
+    this.state.modal1 = false;
     e.preventDefault(); // 修复 Android 上点击穿透
     this.setState({
       [key]: true
@@ -52,6 +55,12 @@ class Article extends Component {
     let app = document.getElementById('root');
     app.classList.remove('v-dialog-mask');
   };
+  onChange = key =>()=>{
+    this.state.modal1 = true;
+    this.setState({
+      [key]: false
+    });
+  }
 
   onWrapTouchStart = e => {
     // fix touch to scroll background page on iOS
@@ -482,8 +491,8 @@ class Article extends Component {
             <div class="item-12-os_0">
               <span class="label-1643J_0">支付方式</span>
               <div class="value-2cezD_0">
-                <button class="payment-3CRwJ_0">
-                  <i class="iconfont ic-wechat-pay"></i>
+                <button class="payment-3CRwJ_0" onClick={this.showModal2('modal2')}>
+                  <i class="iconfont ic-wechat-pay iconiconzhi02"></i>
                   微信支付
                   <i class="iconfont ic-link ic-link-33FYA_0 iconleft"></i>
                 </button>
@@ -495,26 +504,26 @@ class Article extends Component {
         </Modal>
 
         <Modal
-          visible={this.state.modal1}
+          visible={this.state.modal2}
           transparent
           maskClosable={false}
-          onClose={this.onClose2('modal1')}
-          closable={true}
+          onClose={this.onClose2('modal2')}
+          closable={false}
           title="选择支付方式"
           wrapProps={{ onTouchStart: this.onWrapTouchStart }}
         >
           <main class="v-dialog-content">
-            <button class="back-btn-2SnAQ_0">
-              <i class="iconfont ic-back"></i>
+            <button class="back-btn-2SnAQ_0" onClick={this.onChange('modal2')}>
+              <i class="iconfont ic-back iconleft4"></i>
             </button>
             {/* <div class="title-3w2_d_0">选择支付方式</div> */}
             <div class="item-12-os_0 choice-W7ak__0">
-              <i class="iconfont ic-wechat-pay"></i>
+              <i class="iconfont ic-wechat-pay iconiconzhi02"></i>
               &nbsp; 微信支付
               <span class="selected-radio-LZm2c_0"></span>
             </div>
             <div class="item-12-os_0 choice-W7ak__0">
-              <i class="iconfont ic-alipay"></i>
+              <i class="iconfont ic-alipay iconumidd17"></i>
               &nbsp; 支付宝支付
               <span class="radio-VwGUP_0"></span>
             </div>
