@@ -15,7 +15,7 @@ export class ArticleList extends Component {
       <div>
         <div class="book-nav">
           <button class="open-chapter">
-            <i class="iconfont ic-catalog"></i>
+            <i class="iconfont ic-catalog iconmulu"></i>
             目录
           </button>
           <a href="/nb/23058721" class="book-info">
