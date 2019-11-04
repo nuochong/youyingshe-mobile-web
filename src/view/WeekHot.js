@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/css/WeekHot.scss';
-
+import { Link } from 'react-router-dom';
 class Article extends Component {
   constructor() {
     super();
@@ -16,6 +16,7 @@ class Article extends Component {
             <ol>
               <li>
                 <a href="/nb/240879" class="notebook">
+                <Link to={`/directory/`}>
                   <img src="http://upload.jianshu.io/book/image/24a1d492-a669-44ce-9ffe-a325984d6ea1" class="cover" />
                   <div class="name">末路狂花</div>
                   <div class="intro oneline">
@@ -31,6 +32,7 @@ class Article extends Component {
                     </span>
                   </div>
                   <div class="intro twoline">冷暖自知。</div>
+                  </Link>
                 </a>
               </li>
               <li>
