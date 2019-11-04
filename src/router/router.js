@@ -8,6 +8,8 @@ import Redux2 from '../view/Redux2';
 import Directory from '../view/Directory';
 import Classify from '../view/Classify';
 import Bookrack from '../view/Bookrack';
+import WeekHot from '../view/WeekHot';
+import SpecialOffer from '../view/SpecialOffer';
 
 let routers = [
   {
@@ -61,6 +63,14 @@ let routers = [
   {
     path: '/bookrack',
     component: Bookrack
+  },
+  {
+    path: '/week-hot',
+    component: WeekHot
+  },
+  {
+    path: '/special-offer',
+    component: SpecialOffer
   }
 ];
 
