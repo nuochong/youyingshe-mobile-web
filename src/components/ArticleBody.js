@@ -62,7 +62,7 @@ export class ArticleBody extends Component {
                 <div class="image-container">
                   <div class="image-container-fill" />
                   <div class="image-view">
-                    <img class="" src={process.env.PUBLIC_URL + '/img/12676667-c84a3febcb3b2c2a.webp'} />
+                    <img src={process.env.PUBLIC_URL + '/img/12676667-c84a3febcb3b2c2a.webp'} />
                   </div>
                 </div>
                 <div class="image-caption">第一组花瓣，完全在试色当中</div>

@@ -15,7 +15,7 @@ export class Collection extends Component {
             <div class="summary">
               <div class="name">婚姻育儿</div>
               <div class="desc">
-                <a href="javascript:;" class="">
+                <a href="javascript:;">
                   简书
                 </a>
                 编，18.7万篇文章，95.3万人关注

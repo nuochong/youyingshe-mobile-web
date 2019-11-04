@@ -34,7 +34,7 @@ export class Comment extends Component {
           <div class="comments-wrap">
             <div class="comment-item">
               <a href="javascript:;" class="user-avatar">
-                <span class="">
+                <span>
                   <img src={process.env.PUBLIC_URL + '/img/f9075afb-775a-433d-9c32-835b8d9893e2.webp'} />
                 </span>
               </a>
@@ -64,7 +64,7 @@ export class Comment extends Component {
             </div>
             <div class="comment-item ">
               <a href="javascript:;" class="user-avatar">
-                <span class="">
+                <span>
                   <img src={process.env.PUBLIC_URL + '/img/c68e17ff-8f3a-4b48-9f37-062fd25faa70.webp'} />
                 </span>
               </a>
@@ -93,7 +93,7 @@ export class Comment extends Component {
                 <div class="sub-comment-list">
                   <div class="sub-comment-item">
                     <a href="javascript:;" class="user-avatar">
-                      <span class="">
+                      <span>
                         <img src={process.env.PUBLIC_URL + '/img/93da3a3a-e7d3-4fa4-8314-9c1ca05cc021.webp'} />
                       </span>
                     </a>

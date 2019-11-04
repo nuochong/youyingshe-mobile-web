@@ -353,7 +353,7 @@ class Article extends Component {
         {/* 连载作品 */}
         <div class="note-novel-info">
           <div class="top-title">连载作品</div>
-          <a href="javascript:;" class="">
+          <a href="javascript:;">
             <img
               src="https://upload.jianshu.io/book/image/741d215c-5eb3-4202-a7c0-2448c74aa494?imageMogr2/auto-orient/strip|imageView2/1/w/180/h/240/format/webp"
               alt=""
