@@ -308,6 +308,10 @@
   -ms-user-select: none;
   user-select: none;
   margin: 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #2f2f2f;
   .line {
     position: absolute;
     width: 100%;
@@ -320,7 +324,7 @@
     margin: 0 0 25px;
     word-break: break-word !important;
   }
-  .content[data-v-2833608a] {
+  .content {
     display: inline-block;
     background-color: #fff;
     position: relative;
