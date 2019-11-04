@@ -86,7 +86,7 @@ export class ArticleBody extends Component {
 
           {/* 上/下一章 */}
           <div class="book-chapter">
-            <a href="/p/53e9732a0120" class="chapter-item prev-chapter half chapter-with-next">
+            <a href="javascript:;" class="chapter-item prev-chapter half chapter-with-next">
               <div class="text">
                 <p>
                   <i class="iconfont ic-back"></i>
@@ -95,7 +95,7 @@ export class ArticleBody extends Component {
                 <span>青春玄幻|我的左眼61</span>
               </div>
             </a>
-            <a href="/p/9ab38221eeb9" class="chapter-item next-chapter half">
+            <a href="javascript:;" class="chapter-item next-chapter half">
               <div class="text">
                 <p>
                   下一章

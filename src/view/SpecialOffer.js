@@ -14,7 +14,7 @@ class Article extends Component {
           <div class="banner"></div>
           <ul class="bargain-books-list">
             <li>
-              <a href="/nb/15911166" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/f5fece84-458b-43a2-83b5-116e9396d40c?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="情事侦缉档案"
@@ -39,7 +39,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/24036690" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/3d3c1415-a226-4b93-8a5e-ede1776cb5b9?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="渡过：抑郁症治愈笔记"
@@ -65,7 +65,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/26022672" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/46f5022e-100c-4fa3-94f3-a3f681b68bbc?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="渡过2：接纳是最好的治愈"
@@ -90,7 +90,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/26229968" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/92c266ba-d39e-4470-9b17-129e01522208?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="表达模型30讲 | 有效训练你的沟通表达能力"
@@ -116,7 +116,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/27284174" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/3b334af9-d812-4bee-992d-45c84fcb6e07?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="2-8岁宝宝如何学英语——新东方老师的独家英语启蒙课"
@@ -139,7 +139,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/27925733" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/5ae80a1a-b3dc-42dc-b74e-d52f9bd40c6b?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="职场第1课"
@@ -166,7 +166,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/28370799" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/57cdfe5e-cbeb-40cf-8f7a-22c89f4e0547?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="掌握说话的力量"
@@ -189,7 +189,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/28588571" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/3578fc95-5f46-4ebf-a56b-fca13d6b3928?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="12堂脑洞大开的思维升级课"
@@ -212,7 +212,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/28989239" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/e6cac7d9-cd13-466e-8f9e-0bfcedd9beba?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="《金瓶梅》读什么？——一段生动的明代市井生活"
@@ -237,7 +237,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/29773446" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/93c2855b-6ae3-4e99-b223-43d007cdd4b7.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="后背留给我（有声书）"
@@ -264,7 +264,7 @@ class Article extends Component {
               </a>
             </li>
             <li>
-              <a href="/nb/29835098" class="book">
+              <a href="javascript:;" class="book">
                 <img
                   src="https://upload.jianshu.io/book/image/a2daa9b0-a2c0-4b08-9e45-84f0581633ab?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/160/format/webp"
                   alt="简书七大主题征文S1获奖作品音频"

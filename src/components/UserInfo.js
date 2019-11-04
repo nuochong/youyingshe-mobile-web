@@ -33,7 +33,7 @@ export class UserInfo extends Component {
                 <i class="iconfont iconadd" />
                 关注
               </button>
-              <a href="/mobile/users/079cd14cdae6/rewards/new" class="btn reward-btn">
+              <a href="javascript:;" class="btn reward-btn">
                 赞赏作者
               </a>
             </div>

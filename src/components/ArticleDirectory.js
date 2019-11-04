@@ -58,7 +58,7 @@ export class ArticleList extends Component {
               <ul>
                 <li class="chapter">
                   <div class="part">61</div>
-                  <a href="/p/53e9732a0120" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼61</span>
                     </div>
@@ -71,7 +71,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">60</div>
-                  <a href="/p/a1692916ddbd" class="content">
+                  <a href="javascript:;" class="content">
                     <span class="try-read">试读</span>
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼1</span>
@@ -85,7 +85,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">59</div>
-                  <a href="/p/9ab38221eeb9" class="content">
+                  <a href="javascript:;" class="content">
                     <span class="try-read">试读</span>
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼2</span>
@@ -99,7 +99,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">58</div>
-                  <a href="/p/38458f3499ab" class="content router-link-exact-active router-link-active">
+                  <a href="javascript:;" class="content router-link-exact-active router-link-active">
                     <span class="try-read">试读</span>
                     <div class="info">
                       <span class="current">当前</span>
@@ -114,7 +114,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">57</div>
-                  <a href="/p/0cca15708fad" class="content">
+                  <a href="javascript:;" class="content">
                     <span class="try-read">试读</span>
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼4</span>
@@ -128,7 +128,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">56</div>
-                  <a href="/p/d6ee92a8fbb8" class="content">
+                  <a href="javascript:;" class="content">
                     <span class="try-read">试读</span>
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼5</span>
@@ -142,7 +142,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">55</div>
-                  <a href="/p/d202d723c6d7" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼6</span>
                     </div>
@@ -155,7 +155,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">54</div>
-                  <a href="/p/2f6bdae16a28" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼7</span>
                     </div>
@@ -168,7 +168,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">53</div>
-                  <a href="/p/ee9b28c9af1a" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼8</span>
                     </div>
@@ -181,7 +181,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">52</div>
-                  <a href="/p/f564d7473ad3" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼9</span>
                     </div>
@@ -194,7 +194,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">51</div>
-                  <a href="/p/8914f94c8423" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼10</span>
                     </div>
@@ -207,7 +207,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">50</div>
-                  <a href="/p/c25e547bd146" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼11</span>
                     </div>
@@ -220,7 +220,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">49</div>
-                  <a href="/p/a6dcf0471b68" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼12</span>
                     </div>
@@ -233,7 +233,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">48</div>
-                  <a href="/p/1015309ba87b" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼13</span>
                     </div>
@@ -246,7 +246,7 @@ export class ArticleList extends Component {
                 </li>
                 <li class="chapter">
                   <div class="part">47</div>
-                  <a href="/p/ad9b3d1da86d" class="content">
+                  <a href="javascript:;" class="content">
                     <div class="info">
                       <span class="name">青春玄幻|我的左眼14</span>
                     </div>
@@ -271,7 +271,7 @@ export class ArticleList extends Component {
             class=" drawer book-chapters-drawer-footer"
             className={['drawer book-chapters-drawer-footer ', this.state.isShowDirectory ? 'change1' : 'changeHidden'].join('')}
           >
-            <a href="/nb/23058721" class="back">
+            <a href="javascript:;" class="back">
               <i class="iconfont ic-read iconbook"></i>
               前往作品主页
             </a>

@@ -15,7 +15,7 @@ class Article extends Component {
             <div class="banner weekly"></div>
             <ol>
               <li>
-                <a href="/nb/240879" class="notebook">
+                <a href="javascript:;" class="notebook">
                 <Link to={`/directory/`}>
                   <img src="http://upload.jianshu.io/book/image/24a1d492-a669-44ce-9ffe-a325984d6ea1" class="cover" />
                   <div class="name">末路狂花</div>
@@ -36,7 +36,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/1172116" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/0508d6de-6d18-41af-a823-d9be9a72c425.jpg" class="cover" />
                   <div class="name">原味法餐</div>
                   <div class="intro oneline">
@@ -54,7 +54,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/3298922" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/2435e42a-25d6-4be6-9446-739335028811" class="cover" />
                   <div class="name">历史</div>
                   <div class="intro oneline">
@@ -72,7 +72,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/4006354" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/502ace55-1229-4b7b-a037-5d04d69e65f3" class="cover" />
                   <div class="name">青青美厨</div>
                   <div class="intro oneline">
@@ -90,7 +90,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/5254068" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/3c89de1d-9013-4bd9-ad24-64b3546266c8.jpg" class="cover" />
                   <div class="name">怀左的蜗牛日记</div>
                   <div class="intro oneline">
@@ -108,7 +108,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/5293130" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/441b7213-6fcd-4143-b615-431f758d548e.jpg" class="cover" />
                   <div class="name">青青外语</div>
                   <div class="intro oneline">
@@ -127,7 +127,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/6552291" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/f3bfeda8-f704-401f-93ab-564732fd8dfc" class="cover" />
                   <div class="name">西达雅的阅读经——书评与读书笔记</div>
                   <div class="intro oneline">
@@ -146,7 +146,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/7060850" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/703de91b-d594-4d5b-9af9-c2c327212f0e.png" class="cover" />
                   <div class="name">微信小程序专栏</div>
                   <div class="intro oneline">
@@ -166,7 +166,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/12703694" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/05d6ee81-273c-470f-91bf-3da8af3b0999.jpg" class="cover" />
                   <div class="name">正史有意思</div>
                   <div class="intro oneline">
@@ -185,7 +185,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/14112366" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/77970edf-5354-4077-aacb-27e943d65a41.png" class="cover" />
                   <div class="name">脑科学科普</div>
                   <div class="intro oneline">
@@ -204,7 +204,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/14861030" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/9ddb109b-38be-40db-b8ff-bc586af7ae77" class="cover" />
                   <div class="name">揭开护肤化妆品的真相</div>
                   <div class="intro oneline">
@@ -228,7 +228,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/15982894" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/51acd206-2407-4a54-942e-857966e76dde" class="cover" />
                   <div class="name">信手涂鸦</div>
                   <div class="intro oneline">
@@ -248,7 +248,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/20838974" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/ec50f80e-f89e-4a89-8f54-eb3042e56402" class="cover" />
                   <div class="name">徒步沙场</div>
                   <div class="intro oneline">
@@ -269,7 +269,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/21632959" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/d62261c2-2ee3-4dd2-bce7-4997eb6699a3" class="cover" />
                   <div class="name">骨科病房日记（中篇）</div>
                   <div class="intro oneline">
@@ -293,7 +293,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/21665340" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/8e0c2465-ed98-47ab-be93-86991ffd5303.jpg" class="cover" />
                   <div class="name">三生三世续写–东华凤九</div>
                   <div class="intro oneline">
@@ -313,7 +313,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/26337419" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/98937a81-d810-4132-b00d-e0430457525a" class="cover" />
                   <div class="name">更“无用”的写作课</div>
                   <div class="intro oneline">
@@ -331,7 +331,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/26679227" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/20a7b984-0f21-4937-9dc4-9a38677fe772.jpg" class="cover" />
                   <div class="name">屁话</div>
                   <div class="intro oneline">
@@ -349,7 +349,7 @@ class Article extends Component {
                 </a>
               </li>
               <li>
-                <a href="/nb/26877321" class="notebook">
+                <a href="javascript:;" class="notebook">
                   <img src="http://upload.jianshu.io/book/image/a76207ec-cddd-4b18-afd8-f85a5d531c34" class="cover" />
                   <div class="name">于无声处听梦话</div>
                   <div class="intro oneline">
