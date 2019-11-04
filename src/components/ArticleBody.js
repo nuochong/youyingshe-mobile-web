@@ -2,6 +2,19 @@ import React, { Component } from 'react';
 import '../assets/css/ArticleBody.scss';
 import { Link } from 'react-router-dom';
 export class ArticleBody extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isShowStyle: false
+    };
+  }
+  showStyle = () => {
+    this.setState({
+      isShowStyle: !this.state.isShowStyle
+    });
+    console.log('this.state.isShowStyle :', this.state.isShowStyle);
+  };
   render() {
     return (
       <div>
@@ -24,6 +37,24 @@ export class ArticleBody extends Component {
                 <i class="iconfont iconjewel" />
                 <span>5.409</span>
                 <span>2018-08-05 10:42</span>
+              </div>
+              {/* 连载文章meta */}
+              <div class="meta">
+                <span>2018-02-02 07:24</span>
+                <button class="app-open">
+                  <i class="iconfont ic-openinapp"></i>
+                  <span>打开App</span>
+                </button>
+                <div class="reader-mode-public reader-mode-iFw96_0">
+                  <div class="light-mode-1sdus_0" onClick={this.showStyle}>
+                    <em class="day-a1Tt__0"  className={['', this.state.isShowStyle ? 'day-a1Tt__0' : 'night-2BQDF_0'].join('')} ></em>
+                    <span>白天</span>
+                  </div>
+                  <div class="font-size-2KUVN_0">
+                    <i class="iconfont ic-mode-fontsize iconziti1"></i>
+                    <span>普通</span>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="article-content">
@@ -75,12 +106,7 @@ export class ArticleBody extends Component {
               <button class="btn btn-paid reward-button buy-book">
                 拿下整部￥12.90
                 <div class="el-dialog__wrapper">
-                  <div
-                    role="dialog"
-                    aria-modal="true"
-                    aria-label="dialog"
-                    class="el-dialog buy-confirm-modal-1biVE_0 buy-confirm-modal-extra"
-                  >
+                  <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog buy-confirm-modal-1biVE_0 buy-confirm-modal-extra">
                     <div class="el-dialog__header">
                       <span class="el-dialog__title"></span>
                     </div>
