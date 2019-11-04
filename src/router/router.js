@@ -5,6 +5,7 @@ import Author from '../view/Author';
 import Aggregation from '../view/Aggregation';
 import Redux from '../view/Redux';
 import Redux2 from '../view/Redux2';
+import Directory from '../view/Directory';
 
 let routers = [
   {
@@ -46,6 +47,10 @@ let routers = [
   {
     path: '/redux2',
     component: Redux2
+  },
+  {
+    path: '/directory',
+    component: Directory
   }
 ];
 
