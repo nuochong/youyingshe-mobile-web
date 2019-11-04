@@ -509,3 +509,145 @@ button {
   line-height: 1.15;
   margin: 0;
 }
+
+//付款弹框
+.v-dialog-close-btn {
+  font-weight: 700;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  opacity: 0.2;
+  height: 24px;
+  line-height: 24px;
+  color: #000;
+}
+.v-dialog-content {
+  padding: 0 20px;
+  .title-3w2_d_0 {
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-bottom: 22px;
+    color: #333;
+  }
+  .item-12-os_0 {
+    border-top: 1px solid #dadada;
+    height: 50px;
+    line-height: 49px;
+    .label-1643J_0 {
+      color: #888;
+      letter-spacing: 0.3px;
+      font-size: 14px;
+      float: left;
+    }
+    .value-2cezD_0 {
+      overflow: hidden;
+      text-align: right;
+    }
+    .loading-promotion-TAy6Y_0 {
+      color: #888;
+      letter-spacing: 0.3px;
+      font-size: 14px;
+    }
+    .amount-22YN-_0 {
+      color: #333;
+      letter-spacing: 0.5px;
+      font-size: 19px;
+    }
+    .payment-3CRwJ_0 {
+      color: #424242;
+      font-size: 14px;
+      .ic-wechat-pay {
+        color: #00bb29;
+        font-size: 16px;
+      }
+      .ic-link-33FYA_0 {
+        color: rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+  .buy-btn-3ZTca_0 {
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #ea6f5a;
+    color: #fff;
+    font-size: 18px;
+    line-height: 44px;
+    margin-top: 18px;
+  }
+}
+main {
+  display: block;
+}
+.am-modal-transparent {
+  // width: 270px;
+  margin-top: 15vh;
+  width: 322px;
+}
+
+.v-dialog-mask {
+  -webkit-filter: blur(3px) grayscale(25%);
+}
+
+//选择支付方式
+.v-dialog-content {
+  padding: 0 20px;
+  text-align: left;
+  .back-btn-2SnAQ_0 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #898989;
+    font-size: 16px;
+  }
+  .title-3w2_d_0 {
+    text-align: center;
+    letter-spacing: 0.4px;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-bottom: 22px;
+    color: #333;
+  }
+  .choice-W7ak__0 {
+    position: relative;
+    color: #3f3f3f;
+    font-size: 14px;
+    .selected-radio-LZm2c_0 {
+      border: 1px solid #ea6f5a;
+      position: absolute;
+      top: 17px;
+      right: 15px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: #fff;
+      &:before {
+        content: '';
+        position: absolute;
+        width: 9px;
+        height: 9px;
+        left: 2px;
+        top: 2px;
+        background-color: #ea6f5a;
+        border-radius: 50%;
+      }
+    }
+  }
+  .item-12-os_0 {
+    border-top: 1px solid #dadada;
+    height: 50px;
+    line-height: 49px;
+    .ic-wechat-pay {
+      color: #00bb29;
+      font-size: 16px;
+    }
+    .ic-alipay {
+      color: #5b9fe7;
+      font-size: 16px;
+  }
+  }
+}
