@@ -6,6 +6,7 @@ import Aggregation from '../view/Aggregation';
 import Redux from '../view/Redux';
 import Redux2 from '../view/Redux2';
 import Directory from '../view/Directory';
+import Classify from '../view/Classify';
 
 let routers = [
   {
@@ -51,6 +52,10 @@ let routers = [
   {
     path: '/directory',
     component: Directory
+  },
+  {
+    path: '/classify',
+    component: Classify
   }
 ];
 

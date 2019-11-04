@@ -1,0 +1,106 @@
+.books-category {
+  font-weight: 400;
+  line-height: 1.6;
+  .board {
+    padding: 20px 5px 0;
+    border-bottom: 10px solid #f5f5f5;
+    &:last-of-type {
+      padding-bottom: 30px;
+      border: none;
+    }
+    .title {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 18px;
+      line-height: 1;
+      color: #333;
+      .leixingxiaoshuo {
+        background-position: -75px 0;
+      }
+      .icon-sprite {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 4px;
+        width: 20px;
+        height: 20px;
+        background-image: url(//cdn2.jianshu.io/asimov/src/assets/image/icon-books-category-sprite.1d5b1867.png);
+        -webkit-background-size: 420px 20px;
+        background-size: 420px 20px;
+      }
+      .text {
+        vertical-align: middle;
+      }
+    }
+    .show-btn {
+      display: none;
+      &:checked ~ label {
+        .hide-text {
+          display: inline-block;
+        }
+        i {
+          -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+        }
+      }
+      &:checked ~ .books-category-list {
+        height: auto;
+      }
+    }
+    label {
+      position: relative;
+      float: right;
+      padding-right: 30px;
+      font-size: 14px;
+      color: #999;
+      .show-text {
+        display: none;
+      }
+      > * {
+        pointer-events: none;
+      }
+      i {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+      }
+    }
+    .books-category-list {
+      margin-top: 15px;
+      list-style: none;
+      font-size: 0;
+      overflow: hidden;
+      &.limit-height {
+        height: 120px;
+      }
+      li {
+        display: inline-block;
+        min-width: 25%;
+        padding: 0 5px 15px;
+        text-align: center;
+        .category {
+          display: block;
+          padding: 12px 10px;
+          font-size: 14px;
+          color: #555;
+          border-radius: 30px;
+          background-color: #f5f5f5;
+        }
+      }
+    }
+  }
+}
+input {
+  overflow: visible;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
