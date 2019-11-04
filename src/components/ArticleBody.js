@@ -9,16 +9,16 @@ export class ArticleBody extends Component {
           <div class="article-body collapse-free-content">
             <h1 class="article-title">吐血整理写给新手的水彩颜料选购指南（干货）</h1>
             <div class="article-message">
-            <Link to={`/author/`}>
-              <a href="javascript:;" class="info">
-                <img src={process.env.PUBLIC_URL + '/img/7374b10ccc30.webp'} class="user-avatar" />
-                <div class="user-content">
-                  <div class="user-content-wrap">
-                    <div class="user-nickname">琢磨自留地</div>
-                    <span class="label badge-item">简书作者</span>
+              <Link to={`/author/`}>
+                <a href="javascript:;" class="info">
+                  <img src={process.env.PUBLIC_URL + '/img/7374b10ccc30.webp'} class="user-avatar" />
+                  <div class="user-content">
+                    <div class="user-content-wrap">
+                      <div class="user-nickname">琢磨自留地</div>
+                      <span class="label badge-item">简书作者</span>
+                    </div>
                   </div>
-                </div>
-              </a>
+                </a>
               </Link>
               <div class="article-meta">
                 <i class="iconfont iconjewel" />
@@ -31,10 +31,7 @@ export class ArticleBody extends Component {
                 <div class="image-container">
                   <div class="image-container-fill" />
                   <div class="image-view">
-                    <img
-                      class=""
-                      src={process.env.PUBLIC_URL + '/img/12676667-c84a3febcb3b2c2a.webp'}
-                    />
+                    <img class="" src={process.env.PUBLIC_URL + '/img/12676667-c84a3febcb3b2c2a.webp'} />
                   </div>
                 </div>
                 <div class="image-caption">第一组花瓣，完全在试色当中</div>
@@ -48,6 +45,53 @@ export class ArticleBody extends Component {
               <i class="iconfont iconmore" />
             </button>
             <button class="open-app-btn">打开App，阅读文章</button>
+          </div>
+
+          {/* 上/下一章 */}
+          <div class="book-chapter">
+            <a href="/p/53e9732a0120" class="chapter-item prev-chapter half chapter-with-next">
+              <div class="text">
+                <p>
+                  <i class="iconfont ic-back"></i>
+                  上一章
+                </p>
+                <span>青春玄幻|我的左眼61</span>
+              </div>
+            </a>
+            <a href="/p/9ab38221eeb9" class="chapter-item next-chapter half">
+              <div class="text">
+                <p>
+                  下一章
+                  <i class="iconfont ic-link"></i>
+                </p>
+                <span>青春玄幻|我的左眼2</span>
+              </div>
+            </a>
+          </div>
+
+          {/* 购买 */}
+          <div id="buy-book-panel">
+            <div class="support-author">
+              <button class="btn btn-paid reward-button buy-book">
+                拿下整部￥12.90
+                <div class="el-dialog__wrapper">
+                  <div
+                    role="dialog"
+                    aria-modal="true"
+                    aria-label="dialog"
+                    class="el-dialog buy-confirm-modal-1biVE_0 buy-confirm-modal-extra"
+                  >
+                    <div class="el-dialog__header">
+                      <span class="el-dialog__title"></span>
+                    </div>
+                  </div>
+                </div>
+              </button>
+              <div class="supporter">
+                <div></div>
+                <ul class="support-list"></ul>
+              </div>
+            </div>
           </div>
 
           <div class="article-praise-container">
