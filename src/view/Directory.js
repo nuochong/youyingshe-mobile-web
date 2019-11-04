@@ -26,7 +26,7 @@ class Article extends Component {
           />
           <div class="info">
             <button class="follow-btn notebook-follow-button follow">
-              <i class="iconfont ic-follow"></i>
+              <i class="iconfont ic-follow iconadd"></i>
               关注
             </button>
             <div class="title">简</div>
@@ -42,11 +42,28 @@ class Article extends Component {
           </div>
         </div>
 
-        <div class="intros">暂无简介</div>
+        {/* <div class="intros">暂无简介</div> */}
+        <div class="intros">
+          主要人物:黎小奕，左眼先天性眼球发育不完全。(性格倔强，外表冰冷，内心既多愁善感又善良热心。)有非常
+          <i class="iconfont ic-show iconbottom"></i>
+        </div>
+
+        <div class="categories-group">
+          <i class="iconfont ic-tag icontag"></i>
+          <a href="/mobile/books/?category_id=48" class="category">
+            青春
+          </a>
+          <a href="/mobile/books/?category_id=95" class="category">
+            玄幻
+          </a>
+          <a href="/mobile/books/?category_id=284" class="category">
+            付费连载
+          </a>
+        </div>
 
         <hr />
         <a href="/p/d1a247347bfd" class="latest-novel-note">
-          <i class="iconfont ic-latest"></i>
+          <i class="iconfont ic-latest iconnew"></i>
           <span class="publish-time">2019-11-04 07:14</span>
           <p class="name oneline">我要画丙烯荷花</p>
         </a>
@@ -62,7 +79,7 @@ class Article extends Component {
           <ul>
             <li class="chapter">
               <div class="part">1</div>
-              <a href="/p/37f0c25b81e3" class="content">
+              <a href="/p/37f0c25b81e3" class="content padding-right">
                 <div class="info">
                   <span class="name">我的第一幅水彩风景画-云深不知处###我的第一幅丙稀石头画</span>
                 </div>
@@ -72,10 +89,12 @@ class Article extends Component {
                   <span>08-07 16:06</span>
                 </div>
               </a>
+              <button class="btn btn-paid reward-button buy-note">购买</button>
             </li>
             <li class="chapter">
               <div class="part">2</div>
               <a href="/p/8033513e60fb" class="content">
+              <span class="try-read">试读</span>
                 <div class="info">
                   <span class="name">我画的彩铅版赵丽颖</span>
                 </div>
@@ -259,7 +278,7 @@ class Article extends Component {
           <div class="scroller-1aZec_0">
             <div data-v-24fdcdc8="">
               <div data-v-24fdcdc8="" class="flow-list-placeholder-load-more">
-                加载更多 <i data-v-24fdcdc8="" class="iconfont ic-show"></i>
+                加载更多 <i data-v-24fdcdc8="" class="iconfont ic-show iconbottom"></i>
               </div>
             </div>
           </div>
@@ -354,8 +373,28 @@ class Article extends Component {
             </a>
           </div>
         </div>
-        <hr/>
+        <hr />
         <Footer />
+        <div class="paid-fixed-bar">
+          <a href="/p/a1692916ddbd" class="try-read">
+            免费阅读
+          </a>
+          <button class="btn btn-paid reward-button buy-book">
+            立即拿下￥12.90
+            <div class="el-dialog__wrapper">
+              <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog buy-confirm-modal-1biVE_0 buy-confirm-modal-extra">
+                <div class="el-dialog__header">
+                  <span class="el-dialog__title"></span>
+                </div>
+              </div>
+            </div>
+          </button>
+          <div class="tip">
+            购买后
+            <br />
+            成功邀请有赏金
+          </div>
+        </div>
       </div>
     );
   }

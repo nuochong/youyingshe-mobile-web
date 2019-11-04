@@ -7,6 +7,7 @@ import Redux from '../view/Redux';
 import Redux2 from '../view/Redux2';
 import Directory from '../view/Directory';
 import Classify from '../view/Classify';
+import Bookrack from '../view/Bookrack';
 
 let routers = [
   {
@@ -56,6 +57,10 @@ let routers = [
   {
     path: '/classify',
     component: Classify
+  },
+  {
+    path: '/bookrack',
+    component: Bookrack
   }
 ];
 
