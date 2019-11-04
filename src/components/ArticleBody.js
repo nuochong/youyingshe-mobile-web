@@ -164,6 +164,32 @@ export class ArticleBody extends Component {
               </div>
               <button class="new-reward-button">赞赏</button>
             </div>
+
+            <div class="support-users">
+              <ul>
+                <li>
+                  <img src="https://upload.jianshu.io/users/upload_avatars/5560827/2b0b6273-b47c-4b89-869a-2b18ed677c9f?imageMogr2/auto-orient/strip|imageView2/1/w/20/h/20/format/webp" />
+                </li>
+                <li>
+                  <img src="//cdn2.jianshu.io/assets/default_avatar/11-4d7c6ca89f439111aff57b23be1c73ba.jpg" />
+                </li>
+                <li>
+                  <img src="https://upload.jianshu.io/users/upload_avatars/5641326/27e6a3de-8bbf-45eb-9f88-b40aded20e06.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/20/h/20/format/webp" />
+                </li>
+                <li>
+                  <img src="//cdn2.jianshu.io/assets/default_avatar/4-3397163ecdb3855a0a4139c34a695885.jpg" />
+                </li>
+                <li>
+                  <img src="https://upload.jianshu.io/users/upload_avatars/9052522/8220e777-bf16-4c54-96da-29cfb3ab3279?imageMogr2/auto-orient/strip|imageView2/1/w/20/h/20/format/webp" />
+                </li>
+                <li>
+                  <div class="iconfont ic-reward-more more iconmoreread"></div>
+                </li>
+              </ul>
+              <div class="reward-text">
+                <span class="reward-num">36</span> 人已赞赏
+              </div>
+            </div>
           </div>
         </section>
       </div>

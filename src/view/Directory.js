@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import '../assets/css/Directory.scss';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { Modal, List, Button, WhiteSpace, WingBlank, Icon } from 'antd-mobile';
+import { Modal } from 'antd-mobile';
+import { Link } from 'react-router-dom';
 
 function closest(el, selector) {
   const matchesSelector = el.matches || el.webkitMatchesSelector || el.mozMatchesSelector || el.msMatchesSelector;
@@ -348,7 +349,7 @@ class Article extends Component {
             </div>
           </div>
         </div>
-        <hr/>
+        <hr />
         {/* 连载作品 */}
         <div class="note-novel-info">
           <div class="top-title">连载作品</div>
@@ -374,7 +375,7 @@ class Article extends Component {
           </div>
           <div class="meta">122868字 · 14269阅读</div>
         </div>
-      
+
         <hr />
         <div class="recommend-novels-list">
           <div class="top-title">
@@ -446,10 +447,12 @@ class Article extends Component {
               <div class="views-count">318898阅读</div>
             </a>
           </div>
-          <a href="/mobile/books/category" class="recommend-novels-list-load-more">
+          <Link to={`/classify/`}>
+          <a href="javascript:;" class="recommend-novels-list-load-more">
             查看全部分类
             <i class="iconfont ic-link"></i>
           </a>
+          </Link>
         </div>
         <hr />
         <div class="recommend-novels-trending">
@@ -556,8 +559,6 @@ class Article extends Component {
             </div>
           </main>
         </Modal>
-
-        
       </div>
     );
   }
