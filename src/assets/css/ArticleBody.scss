@@ -298,7 +298,40 @@
     }
   }
 }
-
+// 剩余内容
+#note-content-divide {
+  position: relative;
+  height: 31px;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 20px 0;
+  .line {
+    position: absolute;
+    width: 100%;
+    top: 15px;
+    height: 1px;
+    background-color: #bbb;
+    z-index: 0;
+  }
+  p {
+    margin: 0 0 25px;
+    word-break: break-word !important;
+  }
+  .content[data-v-2833608a] {
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+    line-height: 31px;
+    padding: 0 10px;
+    color: #bbb;
+    font-weight: 400;
+  }
+}
 /* 上/下一章 */
 .book-chapter {
   margin: 50px 0 20px;
@@ -376,6 +409,13 @@
       background-color: #da9e55;
       width: 250px;
       border-radius: 4px !important;
+    }
+    .buy-note {
+      color: #ea6f5a !important;
+      border: 1px solid #ea6f5a;
+      background-color: #fff;
+      border-radius: 4px;
+      width: 250px;
     }
     .btn-paid {
       margin-bottom: 17px;
@@ -523,11 +563,11 @@ button {
           transition-delay: 0.2s;
         }
       }
-      span{
+      span {
         margin-left: 25px;
         vertical-align: middle;
         color: #b1b1b1;
-        margin-right: 0!important;
+        margin-right: 0 !important;
       }
     }
   }

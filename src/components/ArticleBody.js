@@ -47,7 +47,7 @@ export class ArticleBody extends Component {
                 </button>
                 <div class="reader-mode-public reader-mode-iFw96_0">
                   <div class="light-mode-1sdus_0" onClick={this.showStyle}>
-                    <em class="day-a1Tt__0"  className={['', this.state.isShowStyle ? 'day-a1Tt__0' : 'night-2BQDF_0'].join('')} ></em>
+                    <em class="day-a1Tt__0" className={['', this.state.isShowStyle ? 'day-a1Tt__0' : 'night-2BQDF_0'].join('')}></em>
                     <span>白天</span>
                   </div>
                   <div class="font-size-2KUVN_0">
@@ -78,6 +78,12 @@ export class ArticleBody extends Component {
             <button class="open-app-btn">打开App，阅读文章</button>
           </div>
 
+          {/* 剩余内容 */}
+          <div id="note-content-divide">
+            <div class="line"></div>
+            <p class="content">还有 79% 的精彩内容</p>
+          </div>
+
           {/* 上/下一章 */}
           <div class="book-chapter">
             <a href="/p/53e9732a0120" class="chapter-item prev-chapter half chapter-with-next">
@@ -105,6 +111,17 @@ export class ArticleBody extends Component {
             <div class="support-author">
               <button class="btn btn-paid reward-button buy-book">
                 拿下整部￥12.90
+                <div class="el-dialog__wrapper">
+                  <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog buy-confirm-modal-1biVE_0 buy-confirm-modal-extra">
+                    <div class="el-dialog__header">
+                      <span class="el-dialog__title"></span>
+                    </div>
+                  </div>
+                </div>
+              </button>
+
+              <button class="btn btn-paid reward-button buy-note">
+                仅购买本篇￥0.90
                 <div class="el-dialog__wrapper">
                   <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog buy-confirm-modal-1biVE_0 buy-confirm-modal-extra">
                     <div class="el-dialog__header">
