@@ -14,10 +14,10 @@ export class Hot extends Component {
             </span>
           </div>
           <div class="recommend-collection">
-            <Link to={`/aggregation/`}>
-              <a href="javascript:;" class="tag">
+            <Link to={`/aggregation/`}  class="tag">
+              {/* <a href="javascript:;" class="tag"> */}
                 摄影
-              </a>
+              {/* </a> */}
             </Link>
             <a href="javascript:;" class="tag">
               旅行·在路上
