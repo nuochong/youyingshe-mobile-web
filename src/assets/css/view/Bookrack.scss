@@ -111,15 +111,15 @@
               white-space: nowrap;
             }
           }
-          .readit{
+          .readit {
             display: block;
             height: 28px;
             width: 200%;
             font-size: 22px;
             color: #999;
-            -webkit-transform: scale(.5);
-            -ms-transform: scale(.5);
-            transform: scale(.5);
+            -webkit-transform: scale(0.5);
+            -ms-transform: scale(0.5);
+            transform: scale(0.5);
             -webkit-transform-origin: left top;
             -ms-transform-origin: left top;
             transform-origin: left top;

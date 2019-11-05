@@ -67,25 +67,25 @@
   height: 667px;
 }
 #book-chapters-drawer-wrap {
-  .hidden{
+  .hidden {
     display: none;
   }
   .change1 {
     top: 0px;
     height: 100%;
-    width:70%;
+    width: 70%;
     //right: 0px;
     //display: none;
   }
   .changeHidden {
     top: 0px;
     height: 100%;
-    width:70%;
+    width: 70%;
     right: 0px;
     display: none;
   }
   .drawer {
-    padding:0;
+    padding: 0;
     z-index: 12;
     position: fixed;
     overflow-x: hidden;
@@ -216,7 +216,7 @@
                 height: 20px;
                 line-height: 16px;
                 margin-top: -4px;
-            }
+              }
               .name {
                 font-size: 15px;
                 color: #2f2f2f;
@@ -262,7 +262,7 @@
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     background-color: #fff;
-    padding:0;
+    padding: 0;
     .back {
       text-align: center;
       font-size: 16px;

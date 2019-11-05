@@ -50,7 +50,7 @@
           font-style: italic;
           font-weight: 700;
           line-height: 1;
-          color: hsla(0,0%,59%,.15);
+          color: hsla(0, 0%, 59%, 0.15);
         }
         &:after {
           content: '';
@@ -112,7 +112,7 @@
           -moz-box-sizing: content-box;
           box-sizing: content-box;
           white-space: normal;
-      }
+        }
         .info {
           color: #999;
           margin-right: 7px;
