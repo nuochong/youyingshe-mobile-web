@@ -11,6 +11,8 @@ import Bookrack from '../view/Bookrack';
 import WeekHot from '../view/WeekHot';
 import SpecialOffer from '../view/SpecialOffer';
 
+import Admire from '../view/Admire';
+
 let routers = [
   {
     path: '/',
@@ -71,6 +73,10 @@ let routers = [
   {
     path: '/special-offer',
     component: SpecialOffer
+  },
+  {
+    path: '/admire',
+    component: Admire
   }
 ];
 
