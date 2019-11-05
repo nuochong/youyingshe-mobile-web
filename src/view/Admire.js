@@ -6,13 +6,13 @@ export class ArticleBody extends Component {
     super(props);
 
     this.state = {
-      //isShowStyle: false
+      isShowInput: true
     };
   }
-  showStyle = () => {
-    // this.setState({
-    //   isShowStyle: !this.state.isShowStyle
-    // });
+  showInput = () => {
+    this.setState({
+      isShowInput: !this.state.isShowInput
+    });
   };
   render() {
     return (
@@ -35,7 +35,7 @@ export class ArticleBody extends Component {
             </div>
           </div>
           {/* 固定 */}
-          <div class="pay">
+          <div class="pay" className={["pay ",!this.state.isShowInput ? 'hide' :'' ].join('')}>
             <div class="btn-group">
               <Link to={`/admire-pay/`}>
                 <button class="btn btn-left">
@@ -66,12 +66,12 @@ export class ArticleBody extends Component {
                 <div class="amount">¥100.00</div>
               </button>
             </div>
-            <button class="custom-amount">其它数量</button>
+            <button class="custom-amount" onClick={this.showInput}>其它数量</button>
           </div>
           {/* 自定义 */}
-          <div class="custom hide">
+          <div class="custom hide" className={["custom ",this.state.isShowInput ? 'hide' :'' ].join('')}>
             <div class="close-bar">
-              <button class="close">×</button>
+              <button class="close" onClick={this.showInput}>×</button>
             </div>
             <label>
               数量: <input placeholder="可输入 1~200 颗" type="number" />

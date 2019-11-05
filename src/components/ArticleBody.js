@@ -162,7 +162,9 @@ export class ArticleBody extends Component {
                 <div class="author-nickname">琢磨自留地</div>
                 <div class="author-desc">小礼物走一走，来简书关注我</div>
               </div>
+              <Link to={`/admire/`}>
               <button class="new-reward-button">赞赏</button>
+              </Link>
             </div>
 
             <div class="support-users">
