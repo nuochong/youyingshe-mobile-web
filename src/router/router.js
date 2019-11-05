@@ -10,8 +10,8 @@ import Classify from '../view/Classify';
 import Bookrack from '../view/Bookrack';
 import WeekHot from '../view/WeekHot';
 import SpecialOffer from '../view/SpecialOffer';
-
 import Admire from '../view/Admire';
+import AdmirePay from '../view/AdmirePay';
 
 let routers = [
   {
@@ -21,7 +21,7 @@ let routers = [
   },
   {
     path: '/home',
-    component: Home,
+    component: Home
     // routes: [
     //   /*嵌套路由*/
     //   {
@@ -77,6 +77,10 @@ let routers = [
   {
     path: '/admire',
     component: Admire
+  },
+  {
+    path: '/admire-pay',
+    component: AdmirePay
   }
 ];
 
