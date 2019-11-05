@@ -20,9 +20,11 @@ export class ArticleBody extends Component {
         <div id="reward-panel">
           <div class="user-panel">
             <div class="background">
-              <button class="close-btn">
-                <i class="iconfont ic-close iconhebingxingzhuang"></i>
-              </button>
+              <Link to={`/article/`}>
+                <button class="close-btn">
+                  <i class="iconfont ic-close iconhebingxingzhuang"></i>
+                </button>
+              </Link>
             </div>
             <div class="author">
               <div class="avatar">
@@ -35,10 +37,12 @@ export class ArticleBody extends Component {
           {/* 固定 */}
           <div class="pay">
             <div class="btn-group">
-              <button class="btn btn-left">
-                2<span> 颗</span>
-                <div class="amount">¥2.00</div>
-              </button>
+              <Link to={`/admire-pay/`}>
+                <button class="btn btn-left">
+                  2<span> 颗</span>
+                  <div class="amount">¥2.00</div>
+                </button>
+              </Link>
               <button class="btn btn-middle">
                 5<span> 颗</span>
                 <div class="amount">¥5.00</div>
@@ -73,7 +77,9 @@ export class ArticleBody extends Component {
               数量: <input placeholder="可输入 1~200 颗" type="number" />
               <h6>颗</h6>
             </label>
-            <button class="btn btn-enter">确认支付 ¥2</button>
+            <Link to={`/admire-pay/`}>
+              <button class="btn btn-enter">确认支付 ¥2</button>
+            </Link>
           </div>
           <div class="reward-tips">安全提示：您正在对其他用户进行赞赏，一但支付，不可返还。请谨慎使用，谨防诈骗。</div>
         </div>
