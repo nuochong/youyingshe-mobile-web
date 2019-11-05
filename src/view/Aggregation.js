@@ -10,8 +10,7 @@ class Aggregation extends Component {
     super();
     this.state = {};
   }
-  componentWillMount() {
-  }
+  componentWillMount() {}
   render() {
     return (
       <div>

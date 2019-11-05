@@ -18,7 +18,7 @@ class Article extends Component {
     return (
       <div>
         <Header />
-        <ArticleDirectory/>
+        <ArticleDirectory />
         <ArticleBody />
         <hr />
         <Comment />

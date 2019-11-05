@@ -10,9 +10,9 @@ export class Login extends Component {
             <div class="header">
               <h3>登录简书</h3>
               <Link to={`/home/`}>
-              <button class="close">
-                <i class="iconfont iconhebingxingzhuang" />
-              </button>
+                <button class="close">
+                  <i class="iconfont iconhebingxingzhuang" />
+                </button>
               </Link>
             </div>
             <form>

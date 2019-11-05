@@ -20,7 +20,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/d6c850c6-13f5-408a-ba3c-fb3b4ef631c3?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/d6c850c6-13f5-408a-ba3c-fb3b4ef631c3?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">焰火与花儿的味道</p>
@@ -42,7 +45,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/741d215c-5eb3-4202-a7c0-2448c74aa494?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/741d215c-5eb3-4202-a7c0-2448c74aa494?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">青春玄幻|我的左眼 第一季</p>
@@ -64,7 +70,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/5e07eaee-f965-4dd4-aa27-920bba76b8b9?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/5e07eaee-f965-4dd4-aa27-920bba76b8b9?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">连载小说 | 走出半生风华</p>
@@ -86,7 +95,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/bb7a8a81-65eb-465e-ab78-06e713fdc8b5?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/bb7a8a81-65eb-465e-ab78-06e713fdc8b5?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">我和初恋结婚了</p>
@@ -108,7 +120,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/faa85ca6-048e-44fa-a011-89781ab25330?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/faa85ca6-048e-44fa-a011-89781ab25330?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">长篇小说《恒境Ⅰ：梦醒》</p>
@@ -130,7 +145,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/e604c3b8-f837-4847-bcad-389be73b41a4?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/e604c3b8-f837-4847-bcad-389be73b41a4?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">我的租借女友生涯（已完结）</p>
@@ -152,7 +170,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/e9d59cbf-651d-4def-b7b2-922823813c92?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/e9d59cbf-651d-4def-b7b2-922823813c92?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">《烟花未眠》</p>
@@ -174,7 +195,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/91bfa7ae-5436-4515-b306-fdcbf036a1d5?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/91bfa7ae-5436-4515-b306-fdcbf036a1d5?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">少年如雪</p>
@@ -196,7 +220,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/c0cb8d87-5e05-45d7-a85e-6cf69ea3dc1b?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/c0cb8d87-5e05-45d7-a85e-6cf69ea3dc1b?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">《时光回去， 只愿不曾遇到你》</p>
@@ -218,7 +245,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/15318755-9c9f-4c35-8553-8b0fa1d91c2e?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/15318755-9c9f-4c35-8553-8b0fa1d91c2e?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">我和坏小子有个约定</p>
@@ -240,7 +270,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/826ac6d7-105f-41d7-913f-7faa0879b1a4?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/826ac6d7-105f-41d7-913f-7faa0879b1a4?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">那年梨花开又落</p>
@@ -262,7 +295,10 @@ class Article extends Component {
                 <span class="paid-badge">付费</span>
                 <div
                   class="banner"
-                  style={{'background-image': 'url("https://upload.jianshu.io/book/image/53fcd6dd-49d1-411b-be3a-26ddb7b0e0d0?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'}}
+                  style={{
+                    'background-image':
+                      'url("https://upload.jianshu.io/book/image/53fcd6dd-49d1-411b-be3a-26ddb7b0e0d0?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/400/format/webp")'
+                  }}
                 ></div>
                 <div class="info">
                   <p class="title">烟花未眠（已完结）</p>

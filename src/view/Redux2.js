@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 class Redux2 extends Component {
-
   componentDidMount() {
-    console.log(this.props)
-  } 
+    console.log(this.props);
+  }
   render() {
     const { PayIncrease, PayDecrease } = this.props;
     return (
@@ -21,14 +20,17 @@ class Redux2 extends Component {
 function mapStateToProps(state) {
   return {
     tiger: state
-  }
+  };
 }
 //需要触发什么行为
 function mapDispatchToProps(dispatch) {
   return {
     PayIncrease: () => dispatch({ type: '涨工资' }),
     PayDecrease: () => dispatch({ type: '扣工资' })
-  }
+  };
 }
 
-export default Redux2 = connect(mapStateToProps, mapDispatchToProps)(Redux2)
+export default Redux2 = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Redux2);

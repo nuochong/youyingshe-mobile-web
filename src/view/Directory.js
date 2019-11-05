@@ -449,8 +449,8 @@ class Article extends Component {
           </div>
           <Link to={`/classify/`} class="recommend-novels-list-load-more">
             {/* <a href="javascript:;" class="recommend-novels-list-load-more"> */}
-              查看全部分类
-              <i class="iconfont ic-link"></i>
+            查看全部分类
+            <i class="iconfont ic-link"></i>
             {/* </a> */}
           </Link>
         </div>
@@ -461,15 +461,15 @@ class Article extends Component {
           </div>
           <div class="banner-group">
             {/* <a href="javascript:;" class="banner"> */}
-              <Link to={`/week-hot/`} class="banner">
-                <img src="//cdn2.jianshu.io/asimov/src/assets/image/mobile/serial_story/banner_weekly.218ab36e.png" alt="" />
-              </Link>
+            <Link to={`/week-hot/`} class="banner">
+              <img src="//cdn2.jianshu.io/asimov/src/assets/image/mobile/serial_story/banner_weekly.218ab36e.png" alt="" />
+            </Link>
             {/* </a> */}
 
             {/* <a href="javascript:;" class="banner"> */}
-              <Link to={`/special-offer/`} class="banner">
-                <img src="//cdn2.jianshu.io/asimov/src/assets/image/mobile/serial_story/banner_bargain_books.0b487e77.png" alt="" />
-              </Link>
+            <Link to={`/special-offer/`} class="banner">
+              <img src="//cdn2.jianshu.io/asimov/src/assets/image/mobile/serial_story/banner_bargain_books.0b487e77.png" alt="" />
+            </Link>
             {/* </a> */}
           </div>
         </div>

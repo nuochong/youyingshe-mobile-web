@@ -16,22 +16,22 @@ class Article extends Component {
             <ol>
               <li>
                 <a href="javascript:;" class="notebook">
-                <Link to={`/directory/`}>
-                  <img src="http://upload.jianshu.io/book/image/24a1d492-a669-44ce-9ffe-a325984d6ea1" class="cover" />
-                  <div class="name">末路狂花</div>
-                  <div class="intro oneline">
-                    <span class="info">
-                      <i class="iconfont ic-tag icontag"></i>
-                      <span class="category">故事</span>
-                      <span class="category">校园</span>
-                      <span class="category">合集</span>
-                    </span>
-                    <span class="info">
-                      <i class="iconfont ic-user iconyonghu"></i>
-                      蔡不帅
-                    </span>
-                  </div>
-                  <div class="intro twoline">冷暖自知。</div>
+                  <Link to={`/directory/`}>
+                    <img src="http://upload.jianshu.io/book/image/24a1d492-a669-44ce-9ffe-a325984d6ea1" class="cover" />
+                    <div class="name">末路狂花</div>
+                    <div class="intro oneline">
+                      <span class="info">
+                        <i class="iconfont ic-tag icontag"></i>
+                        <span class="category">故事</span>
+                        <span class="category">校园</span>
+                        <span class="category">合集</span>
+                      </span>
+                      <span class="info">
+                        <i class="iconfont ic-user iconyonghu"></i>
+                        蔡不帅
+                      </span>
+                    </div>
+                    <div class="intro twoline">冷暖自知。</div>
                   </Link>
                 </a>
               </li>
@@ -221,10 +221,9 @@ class Article extends Component {
                     </span>
                   </div>
                   <div class="intro twoline">
-                    1)如果我告诉你， 敏感肌肤， 裸脸才能快速修复， 你有何感想？ 
-                    2)如果我告诉你，护肤品只有保湿的作用，并没有其他功效，你有何感想？
-                    3)如果我告诉你， 你脸上的痘痘， 很可能是使用产品导致的， 不需要使用祛痘产品也能好，你有何感想？ 
-                    4)如果我告诉你， 脸上涂东西有刺痛时，不是皮肤缺水，而是化学成分刺激到皮肤了， 你有何感想？ ...... 是的， 在这里， 有很多不为人知的秘密， 关于护肤品、化妆品。
+                    1)如果我告诉你， 敏感肌肤， 裸脸才能快速修复， 你有何感想？ 2)如果我告诉你，护肤品只有保湿的作用，并没有其他功效，你有何感想？
+                    3)如果我告诉你， 你脸上的痘痘， 很可能是使用产品导致的， 不需要使用祛痘产品也能好，你有何感想？ 4)如果我告诉你，
+                    脸上涂东西有刺痛时，不是皮肤缺水，而是化学成分刺激到皮肤了， 你有何感想？ ...... 是的， 在这里， 有很多不为人知的秘密， 关于护肤品、化妆品。
                   </div>
                 </a>
               </li>
