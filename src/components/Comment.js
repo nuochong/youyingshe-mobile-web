@@ -1,6 +1,19 @@
 import React, { Component } from 'react';
 import '../assets/css/components/Comment.scss';
 export class Comment extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isShowComment: false
+    };
+  }
+  showComment = () => {
+    this.setState({
+      isShowComment: !this.state.isShowComment
+    });
+    console.log('this.state.isShowComment :', this.state.isShowComment);
+  };
   render() {
     return (
       <div>

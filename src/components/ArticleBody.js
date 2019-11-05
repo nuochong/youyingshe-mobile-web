@@ -15,6 +15,7 @@ export class ArticleBody extends Component {
     });
     console.log('this.state.isShowStyle :', this.state.isShowStyle);
   };
+
   render() {
     return (
       <div>
