@@ -25,12 +25,12 @@ export class ArticleBody extends Component {
             <div class="desc">张一山喊话杨紫，为什么不让我演韩商言？杨紫的回答暗藏玄机</div>
           </div>
           <div class="payment">
-            <div class="checkbox alipay">
+            <div class="checkbox alipay iconzhifubao1">
               <i class="iconfont ic-alipay pay-icon"></i>
               <span>支付宝支付</span>
               <i class="iconfont ic-selected on"></i>
             </div>
-            <div class="checkbox wechat">
+            <div class="checkbox wechat iconweixinzhifu">
               <i class="iconfont ic-wechat-pay pay-icon"></i>
               <span>微信支付</span>
               <i class="iconfont ic-selected off"></i>
