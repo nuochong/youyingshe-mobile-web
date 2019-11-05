@@ -94,6 +94,8 @@
       }
     }
     .article-content {
+      font-weight: 400;
+      line-height: 1.7;
       .image-package {
         margin: 0 0 25px;
         text-align: center;
@@ -148,6 +150,102 @@
           line-height: 1.7;
           border-color: #d9d9d9;
         }
+      }
+      p {
+        margin: 0 0 25px;
+      }
+      b,
+      strong {
+        font-weight: inherit;
+        font-weight: bolder;
+      }
+      .baseH {
+        margin: 0 0 15px;
+        font-weight: 700;
+        line-height: 1.7;
+        text-rendering: optimizelegibility;
+        color: #2f2f2f;
+      }
+      h1 {
+        font-size: 26px;
+        @extend .baseH;
+      }
+      h2 {
+        font-size: 24px;
+        @extend .baseH;
+      }
+      h3 {
+        font-size: 22px;
+        @extend .baseH;
+      }
+      h4 {
+        font-size: 20px;
+        @extend .baseH;
+      }
+      h5 {
+        font-size: 18px;
+        @extend .baseH;
+      }
+      h6 {
+        font-size: 16px;
+        @extend .baseH;
+      }
+      code {
+        padding: 2px 4px;
+        margin: 2px;
+        font-size: 12px;
+        white-space: pre-wrap;
+        position: relative;
+        vertical-align: middle;
+        border-radius: 4px;
+        color: #c7254e;
+        background-color: #f6f6f6;
+        display: inline-block;
+      }
+      code,
+      kbd,
+      samp {
+        font-family: monospace, monospace;
+        font-size: 1em;
+      }
+      blockquote {
+        padding: 20px;
+        margin-bottom: 25px;
+        border-left: 6px solid;
+        line-height: 30px;
+        border-color: #b4b4b4;
+        background-color: #f7f7f7;
+        p {
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+      pre {
+        padding: 15px;
+        margin-bottom: 20px;
+        word-wrap: normal;
+        white-space: pre;
+        overflow: auto;
+        border: 1px solid;
+        border-color: #ccc;
+        border-radius: 4px;
+        font-family: monospace, monospace;
+        font-size: 1em;
+        code {
+          padding: 0;
+          background-color: transparent;
+          white-space: pre;
+          color: inherit;
+        }
+      }
+      .hljs {
+        display: block;
+        color: #abb2bf;
+        background: #282c34;
+      }
+      a {
+        color: #3194d0;
       }
     }
     .article-copyright {
@@ -415,12 +513,12 @@
     width: 50%;
   }
   //只有上一章或下一章
-  .all{
-    width:100%;
+  .all {
+    width: 100%;
   }
   //没有
-  .none{
-    display:none!important;
+  .none {
+    display: none !important;
   }
   .chapter-item {
     display: inline-block;

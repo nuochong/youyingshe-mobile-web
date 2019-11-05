@@ -68,6 +68,34 @@ export class ArticleBody extends Component {
                 </div>
                 <div class="image-caption">第一组花瓣，完全在试色当中</div>
               </div>
+              <p>
+                以上就是本次不靠谱科普的全部内容。<b>祝大家活学活用，见招拆招，装好科学逼，约好文化炮。</b>咱们下期节目再见！
+              </p>
+              <h1>新加入的标题</h1>
+              <h2>新加入的标题</h2>
+              <h3>新加入的标题</h3>
+              <h4>新加入的标题</h4>
+              <h5>新加入的标题</h5>
+              <h6>新加入的标题</h6>
+              <p>
+                在原始数据下载比对这个步骤中，其可以调用预编译好的 Bowtie2, Kallisto 和 salmon 的工具。首先可以利用
+                <code>downloadPublicSeries(c("GSE74251"))</code>
+                下载GEO中的数据信息，然后使用<code>read.csv("ReferenceFiles/GSE74251.csv")</code> 读取文件中的数据信息，接下来就可以使用{' '}
+                <code>rawAlignment</code> 这个命令来进行序列比对了。
+              </p>
+              <blockquote>
+                <p>于是我就把 ChIPseeker::upsetplo t重新给实现了，利用了 ggimage + ggplotify，代码长度变成原来的1/3，而且不会出现上面的这些问题。</p>
+              </blockquote>
+              <pre class="hljs R">
+                <code class="undefined">library(BiocManager)</code>
+              </pre>
+              <p>
+                其它具体的更新信息，可以参考
+                <a href="https://links.jianshu.com/go?to=https%3A%2F%2Fwww.bioconductor.org%2Fnews%2Fbioc_3_10_release%2F" target="_blank">
+                  官方说明
+                </a>
+                。
+              </p>
             </div>
             <div class="article-copyright">© 著作权归作者所有,转载或内容合作请联系作者</div>
           </div>
