@@ -43,7 +43,7 @@ export class ArticleBody extends Component {
               <div class="meta">
                 <span>2018-02-02 07:24</span>
                 <button class="app-open">
-                  <i class="iconfont ic-openinapp"></i>
+                  <i class="iconfont ic-openinapp iconcontextphone"></i>
                   <span>打开应用</span>
                 </button>
                 <div class="reader-mode-public reader-mode-iFw96_0">
