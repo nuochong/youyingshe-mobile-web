@@ -68,3 +68,9 @@ textarea {
 body {
   background-color: #ffffff;
 }
+
+hr {
+  border-width: 0;
+  height: 10px !important;
+  background-color: #e0e0e0;
+}

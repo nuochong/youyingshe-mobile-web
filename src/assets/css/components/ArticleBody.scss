@@ -177,7 +177,8 @@
       text-align: center;
       width: 240px;
       height: 45px;
-      padding: 10px 30px;
+      line-height: 45px;
+      // padding: 10px 30px;
       font-size: 16px;
       border-radius: 23px;
     }
@@ -247,7 +248,7 @@
     background-color: #fafafa;
     margin-bottom: 20px;
     .reward-description {
-      width: 100%;
+      // width: 100%;
       padding: 15px;
       display: flex;
       .author-avatar {
@@ -475,10 +476,11 @@
     }
     .btn-paid {
       margin-bottom: 17px;
-      padding: 8px 48px;
+      // padding: 8px 48px;
       font-size: 14px;
       display: inline-block;
       height: 40px;
+      line-height: 40px;
     }
     .supporter {
       line-height: 0;
