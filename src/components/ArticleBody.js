@@ -43,7 +43,7 @@ export class ArticleBody extends Component {
                 <span>2018-02-02 07:24</span>
                 <button class="app-open">
                   <i class="iconfont ic-openinapp"></i>
-                  <span>打开App</span>
+                  <span>打开应用</span>
                 </button>
                 <div class="reader-mode-public reader-mode-iFw96_0">
                   <div class="light-mode-1sdus_0" onClick={this.showStyle}>
@@ -75,7 +75,7 @@ export class ArticleBody extends Component {
             <button class="close-collapse-btn">
               <i class="iconfont iconmore" />
             </button>
-            <button class="open-app-btn">打开App，阅读文章</button>
+            <button class="open-app-btn">打开应用，阅读文章</button>
           </div>
 
           {/* 剩余内容 */}

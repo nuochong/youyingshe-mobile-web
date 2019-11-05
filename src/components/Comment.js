@@ -117,7 +117,7 @@ export class Comment extends Component {
               </div>
             </div>
             <div class="comment-open-app-btn-wrap">
-              <button class="comment-open-app-btn">打开App，查看全部评论</button>
+              <button class="comment-open-app-btn">打开应用，查看全部评论</button>
             </div>
           </div>
         </section>

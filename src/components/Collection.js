@@ -36,7 +36,7 @@ export class Collection extends Component {
                 <div class="close">×</div>
               </div>
               <div class="option">
-                <button class="btn">打开App</button>
+                <button class="btn">打开应用</button>
                 <button class="btn btn-green">App下载</button>
               </div>
             </div>

@@ -15,7 +15,7 @@ export class Footer extends Component {
                 <span class="line">|</span>
                 <a class="item">退出</a>
                 <span class="line">|</span>
-                <a class="item border">打开App</a>
+                <a class="item border">打开应用</a>
                 <span class="line">|</span>
                 <a href="javascript:;" class="item router-link-active">
                   热门文章
