@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/Classify.scss';
+import '../assets/css/view/Classify.scss';
 import ClassifyList from '../components/ClassifyList';
 
 class Article extends Component {

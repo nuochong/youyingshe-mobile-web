@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../assets/css/Home.css';
-import '../assets/css/Home.scss';
+import '../assets/css/view/Home.css';
+import '../assets/css/view/Home.scss';
 import Footer from './Footer';
 import UserInfo from './UserInfo';
 import Header from './Header';

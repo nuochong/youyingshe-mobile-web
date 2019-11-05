@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/SpecialOffer.scss';
+import '../assets/css/view/SpecialOffer.scss';
 
 class Article extends Component {
   constructor() {

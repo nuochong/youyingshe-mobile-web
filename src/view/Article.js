@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/Article.scss';
+import '../assets/css/view/Article.scss';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Recommend from '../components/Recommend';

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/WeekHot.scss';
+import '../assets/css/view/WeekHot.scss';
 import { Link } from 'react-router-dom';
 class Article extends Component {
   constructor() {

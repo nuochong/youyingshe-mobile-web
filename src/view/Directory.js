@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/Directory.scss';
+import '../assets/css/view/Directory.scss';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { Modal } from 'antd-mobile';

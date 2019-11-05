@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/Bookrack.scss';
+import '../assets/css/view/Bookrack.scss';
 import Header from '../components/Header';
 
 class Article extends Component {
