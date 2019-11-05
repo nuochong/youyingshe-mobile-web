@@ -15,25 +15,25 @@ class Article extends Component {
             <div class="banner weekly"></div>
             <ol>
               <li>
-                <a href="javascript:;" class="notebook">
-                  <Link to={`/directory/`}>
-                    <img src="http://upload.jianshu.io/book/image/24a1d492-a669-44ce-9ffe-a325984d6ea1" class="cover" />
-                    <div class="name">末路狂花</div>
-                    <div class="intro oneline">
-                      <span class="info">
-                        <i class="iconfont ic-tag icontag"></i>
-                        <span class="category">故事</span>
-                        <span class="category">校园</span>
-                        <span class="category">合集</span>
-                      </span>
-                      <span class="info">
-                        <i class="iconfont ic-user iconyonghu"></i>
-                        蔡不帅
-                      </span>
-                    </div>
-                    <div class="intro twoline">冷暖自知。</div>
-                  </Link>
-                </a>
+                {/* <a href="javascript:;" class="notebook"> */}
+                <Link to={`/directory/`} class="notebook">
+                  <img src="http://upload.jianshu.io/book/image/24a1d492-a669-44ce-9ffe-a325984d6ea1" class="cover" />
+                  <div class="name">末路狂花</div>
+                  <div class="intro oneline">
+                    <span class="info">
+                      <i class="iconfont ic-tag icontag"></i>
+                      <span class="category">故事</span>
+                      <span class="category">校园</span>
+                      <span class="category">合集</span>
+                    </span>
+                    <span class="info">
+                      <i class="iconfont ic-user iconyonghu"></i>
+                      蔡不帅
+                    </span>
+                  </div>
+                  <div class="intro twoline">冷暖自知。</div>
+                </Link>
+                {/* </a> */}
               </li>
               <li>
                 <a href="javascript:;" class="notebook">
