@@ -107,6 +107,27 @@ export class ArticleBody extends Component {
             </a>
           </div>
 
+          <div class="book-chapter">
+            <a href="javascript:;" class="chapter-item prev-chapter none chapter-with-next">
+              <div class="text">
+                <p>
+                  <i class="iconfont ic-back"></i>
+                  上一章
+                </p>
+                <span>青春玄幻|我的左眼61</span>
+              </div>
+            </a>
+            <a href="javascript:;" class="chapter-item next-chapter all">
+              <div class="text">
+                <p>
+                  下一章
+                  <i class="iconfont ic-link"></i>
+                </p>
+                <span>青春玄幻|我的左眼2</span>
+              </div>
+            </a>
+          </div>
+
           {/* 购买 */}
           <div id="buy-book-panel">
             <div class="support-author">
