@@ -18,8 +18,8 @@ export class ArticleBody extends Component {
   render() {
     return (
       <div>
-                {/* 连载作品 */}
-                <div class="note-novel-info">
+        {/* 连载作品 */}
+        <div class="note-novel-info">
           <div class="top-title">连载作品</div>
           <a href="javascript:;">
             <img
@@ -43,7 +43,6 @@ export class ArticleBody extends Component {
           </div>
           <div class="meta">122868字 · 14269阅读</div>
         </div>
-
       </div>
     );
   }

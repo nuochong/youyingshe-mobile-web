@@ -18,7 +18,7 @@ export class ArticleBody extends Component {
   render() {
     return (
       <div>
-               {/* 热门排行 */}
+        {/* 热门排行 */}
         <div class="recommend-novels-trending">
           <div class="top-title">
             <span>热门排行</span>
@@ -37,7 +37,6 @@ export class ArticleBody extends Component {
             {/* </a> */}
           </div>
         </div>
-        
       </div>
     );
   }

@@ -163,7 +163,7 @@ export class ArticleBody extends Component {
                 <div class="author-desc">小礼物走一走，来简书关注我</div>
               </div>
               <Link to={`/admire/`}>
-              <button class="new-reward-button">赞赏</button>
+                <button class="new-reward-button">赞赏</button>
               </Link>
             </div>
 

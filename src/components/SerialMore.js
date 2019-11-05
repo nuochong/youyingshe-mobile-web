@@ -18,7 +18,6 @@ export class ArticleBody extends Component {
   render() {
     return (
       <div>
-             
         <div class="recommend-novels-list">
           <div class="top-title">
             <span>更多精彩连载</span>
@@ -96,7 +95,6 @@ export class ArticleBody extends Component {
             {/* </a> */}
           </Link>
         </div>
-        
       </div>
     );
   }
