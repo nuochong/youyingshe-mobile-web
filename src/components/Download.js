@@ -39,12 +39,12 @@ export class Download extends Component {
 
     this.state = {};
   }
-  getParentMsg=()=>{
+  getParentMsg = () => {
     alert(this.props.msg);
-  }
-  childFun=()=>{
+  };
+  childFun = () => {
     alert('我是子组件的方法');
-  }
+  };
   render() {
     return (
       <div>

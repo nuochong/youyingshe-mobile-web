@@ -15,7 +15,7 @@ export class ArticleList extends Component {
     this.setState({
       isShowDirectory: !this.state.isShowDirectory
     });
-     //this.state.isShowDirectory = true;
+    //this.state.isShowDirectory = true;
     console.log('this.state.isShowDirectory :', this.state.isShowDirectory);
   };
   render() {
@@ -37,7 +37,12 @@ export class ArticleList extends Component {
         </div>
 
         <div id="book-chapters-drawer-wrap">
-          <div id="backdrop-r2u" class="backdrop " className={['backdrop ', this.state.isShowDirectory ? 'show' : 'hidden'].join('')} onClick={this.showDirectory}></div>
+          <div
+            id="backdrop-r2u"
+            class="backdrop "
+            className={['backdrop ', this.state.isShowDirectory ? 'show' : 'hidden'].join('')}
+            onClick={this.showDirectory}
+          ></div>
           <div
             class=" drawer book-chapters-drawer-header"
             className={['drawer book-chapters-drawer-header ', this.state.isShowDirectory ? 'change1' : 'changeHidden'].join('')}

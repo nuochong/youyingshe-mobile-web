@@ -6,18 +6,11 @@ export class Collection extends Component {
       <div>
         <section class="collection-container">
           <div class="collection-info">
-            <img
-            src={process.env.PUBLIC_URL + '/img/461792731394569594.jpg'}
-              
-              alt="avatar"
-              class="avatar"
-            />
+            <img src={process.env.PUBLIC_URL + '/img/461792731394569594.jpg'} alt="avatar" class="avatar" />
             <div class="summary">
               <div class="name">婚姻育儿</div>
               <div class="desc">
-                <a href="javascript:;">
-                  简书
-                </a>
+                <a href="javascript:;">简书</a>
                 编，18.7万篇文章，95.3万人关注
               </div>
               <div class="intro">

@@ -12,10 +12,10 @@ export class Footer extends Component {
               <span class="slogan">创作你的创作</span>
             </div>
             <Link to={`/login/`}>
-            <div class="header-login">
-              登录
-              <i class="iconfont iconleft" />
-            </div>
+              <div class="header-login">
+                登录
+                <i class="iconfont iconleft" />
+              </div>
             </Link>
           </div>
           <div class="header-shim" />

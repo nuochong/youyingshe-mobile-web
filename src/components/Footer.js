@@ -9,7 +9,7 @@ export class Footer extends Component {
             <div class="footer-panel">
               <div class="panel">
                 <a href="javascript:;" class="avatar">
-                    <img src={process.env.PUBLIC_URL + '/img/25d33e39-ff2c-4859-8df9-10059f07bd22.webp'} />
+                  <img src={process.env.PUBLIC_URL + '/img/25d33e39-ff2c-4859-8df9-10059f07bd22.webp'} />
                 </a>
                 <a class="item">登录</a>
                 <span class="line">|</span>

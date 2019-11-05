@@ -24,13 +24,13 @@ export class ArticleBody extends Component {
             <div class="article-message">
               <Link to={`/author/`} class="info">
                 {/* <a href="javascript:;" class="info"> */}
-                  <img src={process.env.PUBLIC_URL + '/img/7374b10ccc30.webp'} class="user-avatar" />
-                  <div class="user-content">
-                    <div class="user-content-wrap">
-                      <div class="user-nickname">琢磨自留地</div>
-                      <span class="label badge-item">简书作者</span>
-                    </div>
+                <img src={process.env.PUBLIC_URL + '/img/7374b10ccc30.webp'} class="user-avatar" />
+                <div class="user-content">
+                  <div class="user-content-wrap">
+                    <div class="user-nickname">琢磨自留地</div>
+                    <span class="label badge-item">简书作者</span>
                   </div>
+                </div>
                 {/* </a> */}
               </Link>
               <div class="article-meta">

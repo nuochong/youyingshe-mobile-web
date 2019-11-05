@@ -7,7 +7,6 @@ export class Logo extends Component {
         <section class="article-body-footer">
           <div class="footer-wrap">
             <div class="slogan">
-              
               <img src={process.env.PUBLIC_URL + '/img/misc-logo.805143dd.png'} class="logo" />
               <div class="content">
                 <span>创作你的创作，</span>
