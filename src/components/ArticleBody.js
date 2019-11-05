@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/ArticleBody.scss';
+import '../assets/css/components/ArticleBody.scss';
 import { Link } from 'react-router-dom';
 export class ArticleBody extends Component {
   constructor(props) {

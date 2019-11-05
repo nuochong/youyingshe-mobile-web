@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/Recommend.scss';
+import '../assets/css/components/Recommend.scss';
 export class Recommend extends Component {
   constructor(props) {
     super(props);

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/Collection.scss';
+import '../assets/css/components/Collection.scss';
 export class Collection extends Component {
   render() {
     return (

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/Download.scss';
+import '../assets/css/components/Download.scss';
 import styled from 'styled-components';
 const DownloadGuide = styled.div`
 position: relative;

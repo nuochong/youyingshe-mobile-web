@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/Hot.scss';
+import '../assets/css/components/Hot.scss';
 import { Link } from 'react-router-dom';
 export class Hot extends Component {
   render() {

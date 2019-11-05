@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/ArticleDirectory.scss';
+import '../assets/css/components/ArticleDirectory.scss';
 import { Link } from 'react-router-dom';
 export class ArticleList extends Component {
   constructor(props) {

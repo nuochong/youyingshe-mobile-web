@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/css/ClassifyList.scss';
+import '../assets/css/components/ClassifyList.scss';
 import { Link } from 'react-router-dom';
 export class Hot extends Component {
   render() {
