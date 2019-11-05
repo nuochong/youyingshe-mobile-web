@@ -1,0 +1,29 @@
+//热门排行
+.recommend-novels-trending {
+  .top-title {
+    padding: 15px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #545454;
+    span {
+      padding-left: 7px;
+      border-left: 3px solid #ea6f5a;
+    }
+  }
+  .banner-group {
+    padding: 0 18px;
+    margin-bottom: 20px;
+    font-size: 0;
+    .banner {
+      display: inline-block;
+      width: -webkit-calc(50% - 10px);
+      width: calc(50% - 10px);
+      &:last-child {
+        margin-left: 15px;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

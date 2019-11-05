@@ -2,77 +2,17 @@ import React, { Component } from 'react';
 import '../assets/css/view/Directory.scss';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { Modal } from 'antd-mobile';
+import Serial from '../components/Serial';
+import SerialMore from '../components/SerialMore';
+import SerialHot from '../components/SerialHot';
+import SerialBuy from '../components/SerialBuy';
 import { Link } from 'react-router-dom';
-
-function closest(el, selector) {
-  const matchesSelector = el.matches || el.webkitMatchesSelector || el.mozMatchesSelector || el.msMatchesSelector;
-  while (el) {
-    if (matchesSelector.call(el, selector)) {
-      return el;
-    }
-    el = el.parentElement;
-  }
-  return null;
-}
 
 class Article extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      modal1: false,
-      modal2: false
-    };
+    this.state = {};
   }
-  showModal = key => e => {
-    e.preventDefault(); // 修复 Android 上点击穿透
-    this.setState({
-      [key]: true
-    });
-    let app = document.getElementById('root');
-    app.classList.add('v-dialog-mask');
-  };
-  showModal2 = key => e => {
-    console.log('xxxxxxxx');
-    this.state.modal1 = false;
-    e.preventDefault(); // 修复 Android 上点击穿透
-    this.setState({
-      [key]: true
-    });
-    let app = document.getElementById('root');
-    app.classList.add('v-dialog-mask');
-  };
-  onClose = key => () => {
-    this.setState({
-      [key]: false
-    });
-    let app = document.getElementById('root');
-    app.classList.remove('v-dialog-mask');
-  };
-  onClose2 = key => () => {
-    this.setState({
-      [key]: false
-    });
-    let app = document.getElementById('root');
-    app.classList.remove('v-dialog-mask');
-  };
-  onChange = key => () => {
-    this.state.modal1 = true;
-    this.setState({
-      [key]: false
-    });
-  };
-
-  onWrapTouchStart = e => {
-    // fix touch to scroll background page on iOS
-    if (!/iPhone|iPod|iPad/i.test(navigator.userAgent)) {
-      return;
-    }
-    const pNode = closest(e.target, '.am-modal-content');
-    if (!pNode) {
-      e.preventDefault();
-    }
-  };
 
   componentWillMount() {}
   render() {
@@ -350,220 +290,14 @@ class Article extends Component {
           </div>
         </div>
         <hr />
-        {/* 连载作品 */}
-        <div class="note-novel-info">
-          <div class="top-title">连载作品</div>
-          <a href="javascript:;">
-            <img
-              src="https://upload.jianshu.io/book/image/741d215c-5eb3-4202-a7c0-2448c74aa494?imageMogr2/auto-orient/strip|imageView2/1/w/180/h/240/format/webp"
-              alt=""
-              class="cover"
-            />
-          </a>
-          <a href="javascript:;" class="name">
-            青春玄幻|我的左眼 第一季
-          </a>
-          <button class="follow-btn notebook-follow-button follow">
-            <i class="iconfont ic-follow iconadd"></i>
-            关注
-          </button>
-          <div class="intro">
-            主要人物:黎小奕，左眼先天性眼球发育不完全。(性格倔强，外表冰冷，内心既多愁善感又善良热心。)有非常强烈而准确的第六感。 黎孝天，帅气的邻家小哥哥
-            ，黎小奕的跟屁虫和保护神。为人热情，对小奕死心塌地。 小奕的姆妈，一个六十多岁，几乎可以当她奶奶的驼背寡妇。
-            故事梗概:十六年前，四十多岁的寡妇黎嫂在除夕夜捡到一个弃婴。这个弃婴先天残疾，但是从此被孤独一人的黎嫂当做心肝宝贝，含辛茹苦将她养大。本来就贫困又残疾的两个可怜人，幸亏有邻居黎孝天以及他父母的接应，还有政府的照顾
-            。残疾的女孩有没有资格得到健全人的爱?她能不能带着她的姆妈过上幸福的生活?
-          </div>
-          <div class="meta">122868字 · 14269阅读</div>
-        </div>
-
+        <Serial></Serial>
         <hr />
-        <div class="recommend-novels-list">
-          <div class="top-title">
-            <span>更多精彩连载</span>
-          </div>
-          <div class="novels-group">
-            <a href="javascript:;" class="novel">
-              <img
-                src="https://upload.jianshu.io/book/image/29ff3d7e-7995-4719-a1ab-1f04d51deabb?imageMogr2/auto-orient/strip|imageView2/1/w/200/h/266"
-                alt=""
-                class="cover"
-              />
-              <div class="name">《佛说观无量寿佛经》逐句译</div>
-              <div class="views-count">4362阅读</div>
-            </a>
-            <a href="javascript:;" class="novel">
-              <img
-                src="https://upload.jianshu.io/book/image/5604ce0a-50d6-4184-a3d4-01626ee92775.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/200/h/266"
-                alt=""
-                class="cover"
-              />
-              <div class="name">草心集</div>
-              <div class="views-count">826117阅读</div>
-            </a>
-            <a href="javascript:;" class="novel">
-              <img src="//cdn2.jianshu.io/asimov/src/assets/image/book/serial_story_default_cover.070dd89f.png" alt="" class="cover" />
-              <div class="name">复盘助成长</div>
-              <div class="views-count">86349阅读</div>
-            </a>
-            <a href="javascript:;" class="novel">
-              <img
-                src="https://upload.jianshu.io/book/image/7f36477c-bf66-48ae-902c-f2e5557af513?imageMogr2/auto-orient/strip|imageView2/1/w/200/h/266"
-                alt=""
-                class="cover"
-              />
-              <div class="name">🎧有声简书精读•好评如潮</div>
-              <div class="views-count">243656阅读</div>
-            </a>
-            <a href="javascript:;" class="novel">
-              <img
-                src="https://upload.jianshu.io/book/image/d50d0c5f-0566-434b-a504-8cece7a02845?imageMogr2/auto-orient/strip|imageView2/1/w/200/h/266"
-                alt=""
-                class="cover"
-              />
-              <div class="name">《逐字逐句学古文》</div>
-              <div class="views-count">1107阅读</div>
-            </a>
-            <a href="javascript:;" class="novel">
-              <img
-                src="https://upload.jianshu.io/book/image/37bc3556-ff52-4d3c-b692-0f3baa6932a6?imageMogr2/auto-orient/strip|imageView2/1/w/200/h/266"
-                alt=""
-                class="cover"
-              />
-              <div class="name">《往事知多少三部曲》</div>
-              <div class="views-count">60193阅读</div>
-            </a>
-            <a href="javascript:;" class="novel">
-              <img
-                src="https://upload.jianshu.io/book/image/600299f0-7041-495e-83cf-624c34281623?imageMogr2/auto-orient/strip|imageView2/1/w/200/h/266"
-                alt=""
-                class="cover"
-              />
-              <div class="name">简书笑谈</div>
-              <div class="views-count">447246阅读</div>
-            </a>
-            <a href="javascript:;" class="novel">
-              <img src="//cdn2.jianshu.io/asimov/src/assets/image/book/serial_story_default_cover.070dd89f.png" alt="" class="cover" />
-              <div class="name">随笔</div>
-              <div class="views-count">318898阅读</div>
-            </a>
-          </div>
-          <Link to={`/classify/`} class="recommend-novels-list-load-more">
-            {/* <a href="javascript:;" class="recommend-novels-list-load-more"> */}
-            查看全部分类
-            <i class="iconfont ic-link"></i>
-            {/* </a> */}
-          </Link>
-        </div>
+        <SerialMore></SerialMore>
         <hr />
-        <div class="recommend-novels-trending">
-          <div class="top-title">
-            <span>热门排行</span>
-          </div>
-          <div class="banner-group">
-            {/* <a href="javascript:;" class="banner"> */}
-            <Link to={`/week-hot/`} class="banner">
-              <img src="//cdn2.jianshu.io/asimov/src/assets/image/mobile/serial_story/banner_weekly.218ab36e.png" alt="" />
-            </Link>
-            {/* </a> */}
-
-            {/* <a href="javascript:;" class="banner"> */}
-            <Link to={`/special-offer/`} class="banner">
-              <img src="//cdn2.jianshu.io/asimov/src/assets/image/mobile/serial_story/banner_bargain_books.0b487e77.png" alt="" />
-            </Link>
-            {/* </a> */}
-          </div>
-        </div>
+        <SerialHot></SerialHot>
         <hr />
         <Footer />
-        <div class="paid-fixed-bar">
-          <a href="javascript:;" class="try-read">
-            免费阅读
-          </a>
-          <button class="btn btn-paid reward-button buy-book" onClick={this.showModal('modal1')}>
-            立即拿下￥12.90
-            <div class="el-dialog__wrapper">
-              <div role="dialog" aria-modal="true" aria-label="dialog" class="el-dialog buy-confirm-modal-1biVE_0 buy-confirm-modal-extra">
-                <div class="el-dialog__header">
-                  <span class="el-dialog__title"></span>
-                </div>
-              </div>
-            </div>
-          </button>
-          <div class="tip">
-            购买后
-            <br />
-            成功邀请有赏金
-          </div>
-        </div>
-
-        {/* 付款弹框 */}
-
-        <Modal
-          visible={this.state.modal1}
-          transparent
-          maskClosable={false}
-          onClose={this.onClose('modal1')}
-          closable={true}
-          title="购买连载"
-          wrapProps={{ onTouchStart: this.onWrapTouchStart }}
-        >
-          {/* <div style={{ height: 100, overflow: 'scroll' }}> */}
-          {/* <button class="v-dialog-close-btn">×</button> */}
-          <main class="v-dialog-content">
-            {/* <div class="title-3w2_d_0">购买连载</div> */}
-            <div class="item-12-os_0">
-              <span class="label-1643J_0">优惠券</span>
-              <div class="value-2cezD_0">
-                <span class="loading-promotion-TAy6Y_0">暂无可用优惠券</span>
-              </div>
-            </div>
-            <div class="item-12-os_0">
-              <span class="label-1643J_0">支付总额</span>
-              <div class="value-2cezD_0">
-                <span class="amount-22YN-_0">￥12.90</span>
-              </div>
-            </div>
-            <div class="item-12-os_0">
-              <span class="label-1643J_0">支付方式</span>
-              <div class="value-2cezD_0">
-                <button class="payment-3CRwJ_0" onClick={this.showModal2('modal2')}>
-                  <i class="iconfont ic-wechat-pay iconiconzhi02"></i>
-                  微信支付
-                  <i class="iconfont ic-link ic-link-33FYA_0 iconleft"></i>
-                </button>
-              </div>
-            </div>
-            <button class="buy-btn-3ZTca_0">立即购买</button>
-          </main>
-          {/* </div> */}
-        </Modal>
-
-        <Modal
-          visible={this.state.modal2}
-          transparent
-          maskClosable={false}
-          onClose={this.onClose2('modal2')}
-          closable={false}
-          title="选择支付方式"
-          wrapProps={{ onTouchStart: this.onWrapTouchStart }}
-        >
-          <main class="v-dialog-content">
-            <button class="back-btn-2SnAQ_0" onClick={this.onChange('modal2')}>
-              <i class="iconfont ic-back iconleft4"></i>
-            </button>
-            {/* <div class="title-3w2_d_0">选择支付方式</div> */}
-            <div class="item-12-os_0 choice-W7ak__0">
-              <i class="iconfont ic-wechat-pay iconiconzhi02"></i>
-              &nbsp; 微信支付
-              <span class="selected-radio-LZm2c_0"></span>
-            </div>
-            <div class="item-12-os_0 choice-W7ak__0">
-              <i class="iconfont ic-alipay iconumidd17"></i>
-              &nbsp; 支付宝支付
-              <span class="radio-VwGUP_0"></span>
-            </div>
-          </main>
-        </Modal>
+        <SerialBuy></SerialBuy>
       </div>
     );
   }
