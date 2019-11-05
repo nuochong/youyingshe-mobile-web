@@ -264,9 +264,9 @@ export class ArticleList extends Component {
                 </li>
               </ul>
               <div class="scroller-1aZec_0">
-                <div data-v-24fdcdc8="">
-                  <div data-v-24fdcdc8="" class="flow-list-placeholder-load-more">
-                    加载更多 <i data-v-24fdcdc8="" class="iconfont ic-show"></i>
+                <div>
+                  <div class="flow-list-placeholder-load-more">
+                    加载更多 <i class="iconfont ic-show"></i>
                   </div>
                 </div>
               </div>
