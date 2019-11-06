@@ -1,8 +1,8 @@
 /* ArticleDirectory */
 .animation {
-  -webkit-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 1.5s;
+  -webkit-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
   -webkit-transition-timing-function: linear;
   -o-transition-timing-function: linear;
   transition-timing-function: linear;
@@ -150,7 +150,7 @@
     //visibility: hidden;
     @extend .animation;
     &.show {
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: rgba(0, 0, 0, 0.7);
       visibility: visible;
       @extend .animation;
     }
