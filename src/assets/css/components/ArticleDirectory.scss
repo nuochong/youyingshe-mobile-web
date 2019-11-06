@@ -1,4 +1,9 @@
 /* ArticleDirectory */
+.animation {
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
 .baseF {
   font-weight: 400;
   line-height: 1.6;
@@ -74,22 +79,19 @@
   height: 667px;
 }
 #book-chapters-drawer-wrap {
-  .hidden {
-    display: none;
-  }
   .change1 {
     top: 0px;
     height: 100%;
     width: 70%;
     right: 0px;
-    //display: none;
+    @extend .animation;
   }
   .changeHidden {
     top: 0px;
     height: 100%;
     width: 70%;
-    right: 0px;
-    display: none;
+    right: -70%;
+    @extend .animation;
   }
   .drawer {
     padding: 0;
@@ -136,17 +138,16 @@
     bottom: 0;
     z-index: 11;
     background-color: transparent;
-    -webkit-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    transition-duration: 0.2s;
     -webkit-transition-property: background-color;
     -o-transition-property: background-color;
     transition-property: background-color;
+    @extend .animation;
     &.show {
       -webkit-transition-timing-function: linear;
       -o-transition-timing-function: linear;
       transition-timing-function: linear;
       background-color: rgba(0, 0, 0, 0.6);
+      @extend .animation;
     }
   }
   //侧栏身体

@@ -40,7 +40,7 @@ export class ArticleList extends Component {
           <div
             id="backdrop-r2u"
             class="backdrop "
-            className={['backdrop ', this.state.isShowDirectory ? 'show' : 'hidden'].join('')}
+            className={['backdrop ', this.state.isShowDirectory ? 'show' : ''].join('')}
             onClick={this.showDirectory}
           ></div>
           <div
