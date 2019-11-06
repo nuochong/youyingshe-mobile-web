@@ -141,12 +141,14 @@
     -webkit-transition-property: background-color;
     -o-transition-property: background-color;
     transition-property: background-color;
+    visibility: hidden;
     @extend .animation;
     &.show {
       -webkit-transition-timing-function: linear;
       -o-transition-timing-function: linear;
       transition-timing-function: linear;
       background-color: rgba(0, 0, 0, 0.6);
+      visibility: visible;
       @extend .animation;
     }
   }
