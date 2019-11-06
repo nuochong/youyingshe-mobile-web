@@ -39,7 +39,7 @@ class Home extends Component {
         <ArticleList />
         <hr />
         <Download msg="我是父组件的值" ref="download" />
-        <button onClick={this.activeChildFun}>激活子组件的方法</button>
+        {/* <button onClick={this.activeChildFun}>激活子组件的方法</button> */}
       </div>
     );
   }
