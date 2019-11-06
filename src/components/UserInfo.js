@@ -33,9 +33,7 @@ export class UserInfo extends Component {
                 <i class="iconfont iconadd" />
                 关注
               </button>
-              <button class="btn-money reward-btn">
-                赞赏作者
-              </button>
+              <button class="btn-money reward-btn">赞赏作者</button>
             </div>
           </div>
         </div>

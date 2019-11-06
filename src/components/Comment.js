@@ -19,13 +19,13 @@ export class Comment extends Component {
     console.log('this.state.isShowComment :', this.state.isShowComment);
   };
   handleClick() {
-    console.log('点击了')
+    console.log('点击了');
     this.setState(prevState => ({
       isToggleOn: !prevState.isToggleOn,
       display: prevState.isToggleOn ? 'none' : 'block'
     }));
   }
-  componentDidMount(){
+  componentDidMount() {
     this.handleClick();
   }
   render() {
@@ -49,12 +49,14 @@ export class Comment extends Component {
             </div>
           </div>
 
-          <div class="comment-wrapper" style={{display: this.state.display}}>
+          <div class="comment-wrapper" style={{ display: this.state.display }}>
             <textarea id="comment" placeholder="写下你的评论..." />
             <div id="backdrop-g1y" class="backdrop show" />
             <div class="drawer comment-reply-drawer">
               <div class="control">
-                <button class="cancel" onClick={this.handleClick}>取消</button>
+                <button class="cancel" onClick={this.handleClick}>
+                  取消
+                </button>
                 <button class="submit">确认</button>
               </div>
             </div>
