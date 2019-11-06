@@ -10,11 +10,29 @@ export class ArticleList extends Component {
       isShowDirectory: false
     };
   }
+  componentDidMount() {
+    //处理visibility: hidden;时没有返回动画问题
+    let element = document.getElementById('backdrop-r2u');
+    element.addEventListener('transitionend', handle, false);
+    function handle() {
+      console.log('transitionend事件触发', element.className);
+      if (element.className.indexOf('show') == -1) {
+        console.log('执行了');
+        element.classList.add('hidden');
+      }
+    }
+  }
   showDirectory = () => {
     console.log('点击');
+    //处理visibility: hidden;时没有返回动画问题
+    if (!this.isShowDirectory) {
+      let element = document.getElementById('backdrop-r2u');
+      element.classList.remove('hidden');
+    }
     this.setState({
       isShowDirectory: !this.state.isShowDirectory
     });
+
     //this.state.isShowDirectory = true;
     console.log('this.state.isShowDirectory :', this.state.isShowDirectory);
   };

@@ -2,7 +2,10 @@
 .animation {
   -webkit-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  transition-duration: 1.5s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 .baseF {
   font-weight: 400;
@@ -79,6 +82,9 @@
   height: 667px;
 }
 #book-chapters-drawer-wrap {
+  .hidden {
+    visibility: hidden;
+  }
   .change1 {
     top: 0px;
     height: 100%;
@@ -141,13 +147,10 @@
     -webkit-transition-property: background-color;
     -o-transition-property: background-color;
     transition-property: background-color;
-    visibility: hidden;
+    //visibility: hidden;
     @extend .animation;
     &.show {
-      -webkit-transition-timing-function: linear;
-      -o-transition-timing-function: linear;
-      transition-timing-function: linear;
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: rgba(0, 0, 0, 0.9);
       visibility: visible;
       @extend .animation;
     }
