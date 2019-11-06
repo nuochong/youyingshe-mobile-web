@@ -1,8 +1,11 @@
 /* ArticleDirectory */
-.book-nav {
-  //此处两行应该是全局继承，但是目前修改其它地方会受影响，只做局部处理
+.baseF{
   font-weight: 400;
   line-height: 1.6;
+}
+.book-nav {
+  //此处两行应该是全局继承，但是目前修改其它地方会受影响，只做局部处理
+  @extend .baseF;
 
   padding-left: 18px;
   padding-right: 18px;
