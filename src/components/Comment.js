@@ -5,8 +5,12 @@ export class Comment extends Component {
     super(props);
 
     this.state = {
-      isShowComment: false
+      isShowComment: false,
+      isToggleOn: true,
+      dispaly: 'none'
     };
+    // 这个绑定是必要的，使`this`在回调中起作用
+    this.handleClick = this.handleClick.bind(this);
   }
   showComment = () => {
     this.setState({
@@ -14,18 +18,27 @@ export class Comment extends Component {
     });
     console.log('this.state.isShowComment :', this.state.isShowComment);
   };
+  handleClick() {
+    console.log('点击了')
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn,
+      display: prevState.isToggleOn ? 'none' : 'block'
+    }));
+  }
+  componentDidMount(){
+    this.handleClick();
+  }
   render() {
     return (
       <div>
         <section class="article-comment">
           <div class="top-title">
             暂无评论
-            <button class="write-comment">
+            <button class="write-comment" onClick={this.handleClick}>
               <i class="iconfont iconwrite" />
               写评论
             </button>
           </div>
-
 
           <div class="no-content">
             <img src={process.env.PUBLIC_URL + '/img/icon_comment_no.1b12627d.png'} />
@@ -36,17 +49,16 @@ export class Comment extends Component {
             </div>
           </div>
 
-
-          {/* <div class="comment-wrapper">
+          <div class="comment-wrapper" style={{display: this.state.display}}>
             <textarea id="comment" placeholder="写下你的评论..." />
             <div id="backdrop-g1y" class="backdrop show" />
             <div class="drawer comment-reply-drawer">
               <div class="control">
-                <button class="cancel">取消</button>
+                <button class="cancel" onClick={this.handleClick}>取消</button>
                 <button class="submit">确认</button>
               </div>
             </div>
-          </div> */}
+          </div>
 
           <div class="comments-wrap">
             <div class="comment-item">
