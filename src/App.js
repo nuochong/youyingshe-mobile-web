@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-        {routers.map((route, key) => {
+          {routers.map((route, key) => {
             //对路由匹配模式（exact）进行拆分，true：严格模式，false：非严格模式
             if (route.exact) {
               return (
