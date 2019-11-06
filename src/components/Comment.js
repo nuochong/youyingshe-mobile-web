@@ -25,14 +25,18 @@ export class Comment extends Component {
               写评论
             </button>
           </div>
-          {/* <div class="no-content">
-            <img src="//cdn2.jianshu.io/asimov/src/assets/image/note/icon_comment_no.1b12627d.png" />
+
+
+          <div class="no-content">
+            <img src={process.env.PUBLIC_URL + '/img/icon_comment_no.1b12627d.png'} />
             <div>
               智慧如你，不想
               <button class="reply-btn">发表一点想法</button>
               咩~
             </div>
-          </div> */}
+          </div>
+
+
           {/* <div class="comment-wrapper">
             <textarea id="comment" placeholder="写下你的评论..." />
             <div id="backdrop-g1y" class="backdrop show" />

@@ -19,7 +19,6 @@ class Home extends Component {
     };
   }
   componentWillMount() {
-    console.log('uuuuuuuuuuuu');
     this.api.getTest({}).then(res => {
       console.log('返回成功', res);
       // if (res.code === 200) {
