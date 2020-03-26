@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import routers from './router/router.js';
-
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+// 处理页面空白 BrowserRouter 改为 HashRouter
+import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import './assets/css/App.css';
 
 class App extends Component {
