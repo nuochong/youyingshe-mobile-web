@@ -2,6 +2,7 @@
   "name": "youyingshe-mobile-web",
   "version": "0.1.0",
   "private": true,
+  "homepage":"./",
   "dependencies": {
     "keymirror": "^0.1.1",
     "react": "^16.9.0",
